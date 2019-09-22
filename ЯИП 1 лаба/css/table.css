@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/11823.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+    font-family: "Product Sans";
+}
+
+#page {
+    width: 60%;
+    margin: auto;
+}
+
+#header {
+    margin: 40px 0 40px 0;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(51, 51, 51);
+}
+
+.table-day {
+    width: 40%;
+    min-width: 600px;
+    border-collapse: collapse;
+    margin: 25px 0 55px 0;
+    font-size: 0.95em;
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 20px 45px -9px rgba(0, 0, 0, .5);
+    transition: .2s;
+}
+
+.table-day:hover {
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+.table-day th, .table-day td {
+    width: 33%;
+    border:none;
+    outline:none;
+}
+
+.table-day th, .table-day tr, .table-day td {
+    padding: 5px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-day .table-content:nth-of-type(even) {
+    background-color: #dddddd;
+}
+
+.table-day .table-header {
+    background-color: #6e9aff;
+    background: linear-gradient(-45deg, #483ACB, #6356D8);
+    color: white;
+    font-size: 1em;
+    
+}
+
+.table-day .table-header th {
+    padding: 10px 0 10px 0;
+}
+
+.date {
+    margin-bottom: 15px;
+}
+
+.container {
+    
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.num {
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #89D6BD;
+}
+
+.split {
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #9FBFFF;
+}
+
+.denum {
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #FBE0DC;
+}
+
+.headerbuttons li {
+    float: left;
+    display: table;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.headerbuttons li a {
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+    transition: all.6s ease;
+}
+
+.headerbuttons li a:hover {
+    color: #584BD3;
+    transition: all.6s ease;
+}

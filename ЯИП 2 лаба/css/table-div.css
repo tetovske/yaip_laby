@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.viewport {
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 30px;
+}
+
+.row {
+    float: none;
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 32%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    text-align: center;
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+    margin: auto;
+}

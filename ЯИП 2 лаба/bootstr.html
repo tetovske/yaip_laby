@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>ICS6 Bootstrap</title>
+    <link href="./css/login.css" rel="stylesheet">
+    <link href="./css/table.css" rel="stylesheet">
+    <link href="http://e-learning.bmstu.ru/moodle/pluginfile.php/7546/mod_folder/content/0/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+        body {
+            margin-bottom: 40px;
+        }
+        main {
+            margin-top: 15px;
+        }
+        footer {
+            height: 60px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: linear-gradient(90deg, #5A4DD3, #4C3FCD);
+            box-shadow: 0 -5px 45px -9px rgba(0, 0, 0, .5);
+        }
+        .my-primary {
+            background-color: #1A237E;
+            background: linear-gradient(90deg, #5A4DD3, #4C3FCD);
+            box-shadow: 0 -5px 45px 5px rgba(0, 0, 0, .5);
+            color: white;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark my-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    <main class="container">
+        <div class="row" style="margin-bottom: 60px;">
+            <div class="col-4">
+                <img src=" http://e-learning.bmstu.ru/moodle/pluginfile.php/7546/mod_folder/content/0/avatar.jpg" alt="avatar" width="150" height="150">
+            </div>
+            <div class="col-8">
+                <h1>Определение первообразной: </h1>
+                <strong>Первообразной</strong> для функции   <em>f</em>  называется такая функция  <em>F</em>,  
+                производная которой равна данной функции.
+                Иными словами, равенство  <em>F'</em> = <em>f</em> можно прочесть двумя способами:  
+                <em>f</em> – производная функции  <em>F</em>  или  <em>F</em> – первообразная для функции  <em>f</em>.  
+                Для обозначения первообразной традиционно используют знак неопределенного интеграла, т. е. интеграла без указания 
+                пределов интегрирования.<br/>
+                <h1 style="margin-top: 15px;">Теорема Ферма: </h1>
+                Пусть функция <em>f</em> задана на множестве  и <em>x<sub>0</sub></em> принадлежит <em>X</em>. Напомним, что если для всех точек <em>x</em> принадлежит <em>X</em> выполняется неравенство <em>f(x) <  f(x<sub>0</sub>)</em> 
+                (соответственно неравенство <em>f(x) >  f(x<sub>0</sub>)</em>), 
+                то говорят, что функция <em>f</em> принимает в точке <em>x<sub>0</sub></em> наибольшее (наименьшее) значение на множестве <em>X</em>. Если в неравенстве <em>f(x) <  f(x<sub>0</sub>)</em> (соответственно в неравенстве <em>f(x) <  f(x<sub>0</sub>)</em>) 
+                заменить при xне равно <em>x<sub>0</sub></em> знак нестрогого неравенства на знак строгого неравенства, то получится определение точки <em>x<sub>0</sub></em>, в которой функция <em>f</em> принимает строго 
+                наибольшее (строго наименьшее) значение на множестве <em>X</em>.<br/><br/>
+                <strong>Теорема.</strong> Если функция определена в некоторой окрестности точки, принимает в этой точке наибольшее (наименьшее) значение и имеет конечную или определенного знака бесконечную производную, 
+                то эта производная равна нулю.<br/>
+                <h1 style="margin-top: 15px;">Схематичная разметка любого html-документа: </h1>
+                <code>
+                    &lt;!Спецификация DOCTYPE&gt;<br/>
+                    &lt;html&gt;<br/>
+                    &lt;head (Заголовок)&gt;<br/>
+                    [&lt;Надпись заголовка&gt;]<br/>
+                    [&lt;Стили&gt;]<br/>
+                    [&lt;Скрипты&gt;]<br/>
+                    &lt;/head&gt;<br/>
+                    &lt;body (Тело страницы)&gt;<br/>
+                    [&lt;Разметка страницы&gt;]<br/>
+                    &lt;/body&gt;<br/>
+                    &lt;/html&gt;<br/>
+                </code>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div id="login-form">
+                    <form>
+                        <div class="form-header">Еще не с нами?</br>Зарегистрируйтесь!</div>
+                        <div class="line">
+                            <input type="text" class="form-control" name="in-login" placeholder="Логин"/>
+                        </div>
+                        <div class="line">
+                            <input type="text" name="in-email" class="form-control" placeholder="Ваша почта"/>
+                        </div>
+                        <div class="line">
+                            <input type="text" name="in-pass" class="form-control" placeholder="Пароль"/>
+                        </div>
+                        <div class="button">
+                            <!--<input type="submit" value="Регистрация" />-->
+                            <button type="button" class="btn btn-primary btn-lg">Регистрация</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="col-4">
+            <div id="page">
+                    <h2 style="color: rgb(63, 63, 63)">Понедельник</h2>
+                    <table class="table-day">
+                        <tr class="table-header">
+                            <th>Время</th>
+                            <th>Числитель</th>
+                            <th>Знаменатель</th>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">8:30 - 10:05</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">10:15 - 11:50</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">12:00 - 13:50</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">13:50 - 15:25</div></td>
+                            <td colspan="2"><div class="split">(сем) Физическая культура и спорт</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">15:40 - 17:15</div></td>
+                            <td colspan="2"><div class="split">(лек) Физика 323</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">17:25 - 19:00</div></td>
+                            <td colspan="2"><div class="split">(лек) Базы данных 501ю</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">19:10 - 20:45</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                    </table>
+                    
+                    <h2 style="color: rgb(63, 63, 63)">Вторник</h2>
+                    <table class="table-day">
+                        <tr class="table-header">
+                            <th>Время</th>
+                            <th>Числитель</th>
+                            <th>Знаменатель</th>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">8:30 - 10:05</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">10:15 - 11:50</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="denum">(сем) Электротехника 427ю Скворцов С. П.</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">12:00 - 13:50</div></td>
+                            <td colspan="2"><div class="split">(лек) Языки интернет-программирования 501ю Самарев Р. С.</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">13:50 - 15:25</div></td>
+                            <td colspan="2"><div class="split">(лек) Электротехника 501ю Скворцов С. П.</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">15:40 - 17:15</div></td>
+                            <td><div class="num">(лаб) Физика Каф</div></td>
+                            <td><div class="denum">(сем) Физика 520</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">17:25 - 19:00</div></td>
+                            <td><div class="num">(лаб) Физика Каф</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">19:10 - 20:45</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                    </table>
+        
+                    <h2 style="color: rgb(63, 63, 63)">Среда</h2>
+                    <table class="table-day">
+                        <tr class="table-header">
+                            <th>Время</th>
+                            <th>Числитель</th>
+                            <th>Знаменатель</th>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">8:30 - 10:05</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="denum">(лек) Правоведение 218л</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">10:15 - 11:50</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="denum">(лек) Теория вероятностей и математическая статистика 218л Горяинов В. Б.</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">12:00 - 13:50</div></td>
+                            <td colspan="2"><div class="split">(сем) Правоведение 619л</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">13:50 - 15:25</div></td>
+                            <td><div class="num">(сем) Базы данных 1035л Фомин М. М.</div></td>
+                            <td><div class="denum">(сем) Языки интернет-программирования 908л Изория В. Ф.</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">15:40 - 17:15</div></td>
+                            <td><div class="num">(лаб) Электротехника Каф</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">17:25 - 19:00</div></td>
+                            <td><div class="num">(лаб) Электротехника Каф</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">19:10 - 20:45</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                    </table>
+        
+                    <h2 style="color: rgb(63, 63, 63)">Четверг</h2>
+                    <table class="table-day">
+                        <tr class="table-header">
+                            <th>Время</th>
+                            <th>Числитель</th>
+                            <th>Знаменатель</th>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">8:30 - 10:05</div></td>
+                            <td colspan="2"><div class="split">(сем) Иностранный язык Каф</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">10:15 - 11:50</div></td>
+                            <td colspan="2"><div class="split">(лек) Теория вероятностей и математическая статистика 218л Горяинов В. Б.</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">12:00 - 13:50</div></td>
+                            <td colspan="2"><div class="split">(сем) Теория вероятностей и математическая статистика 255л</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">13:50 - 15:25</div></td>
+                            <td colspan="2"><div class="split">(сем) Теория вероятностей и математическая статистика 255л</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">15:40 - 17:15</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">17:25 - 19:00</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">19:10 - 20:45</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                    </table>
+        
+                    <h2 style="color: rgb(63, 63, 63)">Пятница</h2>
+                    <table class="table-day">
+                        <tr class="table-header">
+                            <th>Время</th>
+                            <th>Числитель</th>
+                            <th>Знаменатель</th>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">8:30 - 10:05</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">10:15 - 11:50</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">12:00 - 13:50</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">13:50 - 15:25</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">15:40 - 17:15</div></td>
+                            <td><div class="num">(лаб) Языки интернет-программирования (1 гр.) Каф</div></td>
+                            <td><div class="denum">(лаб) Языки интернет-программирования (2 гр.) Каф</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">17:25 - 19:00</div></td>
+                            <td><div class="num">(лаб) Языки интернет-программирования (1 гр.) Каф</div></td>
+                            <td><div class="denum">(лаб) Языки интернет-программирования (2 гр.) Каф</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">19:10 - 20:45</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                    </table>
+        
+                    <h2 style="color: rgb(63, 63, 63)">Суббота</h2>
+                    <table class="table-day">
+                        <tr class="table-header">
+                            <th>Время</th>
+                            <th>Числитель</th>
+                            <th>Знаменатель</th>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">8:30 - 10:05</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">10:15 - 11:50</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">12:00 - 13:50</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">13:50 - 15:25</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">15:40 - 17:15</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">17:25 - 19:00</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                        <tr class="table-content">
+                            <td><div class="container">19:10 - 20:45</div></td>
+                            <td><div class="container">-</div></td>
+                            <td><div class="container">-</div></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                
+            </div>
+        </div>
+    </main>
+    <footer class="my-primary">
+        <div class="container">
+            <p class="footer-text" style="color: white;">Footer</p>
+        </div>
+    </footer>
+    </body>
+</html>

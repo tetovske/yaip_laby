@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Product Sans";
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/11823.ttf");
+}
+
+body {
+    background: linear-gradient(to left, #CDA0FF, #7B6BF0);
+}
+
+#output-circle {
+    width: 70px;
+    padding: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50px;
+    background-color: #FBC8CC;
+    color: rgb(151, 111, 112);
+}
+
+#output-text {
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+#output {
+    margin: 50px auto;
+    max-width: 400px;
+    min-height: 200px;
+    background-color: #f5f5f5;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .5);
+    color: rgb(126, 126, 126);
+    font-style: italic;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.layer {
+    margin: 50px auto;
+    max-width: 400px;
+    min-height: 200px;
+    background-color: #ffd3d3;
+    color: rgb(56, 56, 56);
+    font-style: italic;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.but {
+    border: none;
+    border-radius: 15px;
+    background-color: #EC5A5A;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .5);
+    display: block;
+    margin: 50px auto;
+    width: 200px;
+    height: 50px;
+    transition: .2s;
+}
+
+.but:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.but:active {
+    transform: scale(.95);
+    transition: .2s;
+}
