@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#item-table {
+    list-style-type: none;
+}
+
+.table-elem {
+    padding: 15px 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-bottom: 35px;
+    height: 100px;
+    box-shadow: 0 5px 30px 1px rgba(131, 131, 131, 0.5);
+    display: flex;
+    transition: .2s;
+}
+
+.table-elem:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.rmv-but {
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/loschen.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    color: azure;
+    text-decoration: none;
+    border: none;
+    margin: auto 10px;
+    transition: .2s;
+}
+
+.rmv-but:hover {
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.item-picture {
+    background-image: url("../images/crossovok.jpg");
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 70px;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.item-text {
+    margin: auto;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.item-name {
+    font-weight: 600;
+}
+
+.minusbutton {
+    width: 30px;
+    height: 30px;
+    background-color: #C70039;
+    margin: auto 10px;
+    text-align: center;
+    border-radius: 45px;
+    transition: .2s;
+    cursor: pointer;
+    color: white;
+    font-weight: bold
+}
+
+.plusbutton {
+    width: 30px;
+    height: 30px;
+    background-color: #2ECC71;
+    margin: auto 10px;
+    text-align: center;
+    border-radius: 45px;
+    transition: .2s;
+    cursor: pointer;
+    color: white;
+    font-weight: bold
+}
+
+.plusbutton:hover {
+    transition: .2s;
+    transform: scale(1.1);
+}
+
+.minusbutton:hover {
+    transition: .2s;
+    transform: scale(1.1);
+}
+
+.amount {
+    margin: auto 10px;
+}
+
+.item-price {
+
+}
