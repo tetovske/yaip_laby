@@ -6,7 +6,7 @@ function Item(name, price, count) {
     this.count = count;
 }
 
-$('document').ready(function () {
+$('document').ready(function() {
     init();
     updateStore();
 });
@@ -19,7 +19,7 @@ function init() {
         updateStore();
     });
     $('#final-price-but').click(function() {
-        let price = 0; 
+        let price = 0;
         for (let i = 0; i < shopItems.length; ++i) {
             price += parseInt(shopItems[i].price) * parseInt(shopItems[i].count);
         }
@@ -47,6 +47,12 @@ function updateStore() {
     $('#item-table .rmv-but').click(function() {
         shopItems.splice($(this).parent().index());
         updateStore();
+    });
+    $('.table-elem').each(() => {
+        let elem = this;
+        this.addEventListener("mouseover", function() {
+            this.style.background
+        });
     });
 }
 

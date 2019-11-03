@@ -1,0 +1,18 @@
+<h1>Результат вычислений</h1></br>
+<% arr = @res %>
+<% unless arr.empty? %>
+    <table class="result-table">
+        <tr>
+            <th colspan="2">Дружественные числа</th>
+        </tr>
+        <% arr.each do |i| %>
+        <tr>
+            <td><%= i.first %></td>
+            <td><%= i.second %></td>
+        </tr>
+        <% end %>
+    </table>
+<% else %>
+    <p>В заданном диапазоне нет дружественных чисел!</p></br>
+<% end %>
+<%= link_to "Вычислить повторно", '/main/index', method: :get, :class => 'button-def' %>
