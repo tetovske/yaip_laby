@@ -1,0 +1,13 @@
+var str = `
+    <li class="input-form">
+        <% unless @res.empty? %>
+            <% @res.each do |elem| %>
+                <p class="res-elem"><%= elem.first %> <%= elem.second %></p>
+            <% end %>
+        <% else %>
+            <p class="res-elem">В заданном диапазоне нет дружественных чисел!</p>
+        <% end %>
+    </li>
+`;
+
+document.querySelector('#output-list').innerHTML += str
