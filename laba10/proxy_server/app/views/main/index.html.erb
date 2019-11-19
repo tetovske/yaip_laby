@@ -1,0 +1,9 @@
+<div class="input-form">
+    <h1>Введите диапазон</h1>
+    <%= form_tag url_for(:action => 'result', :controller => 'main'), :method => 'get' do %>
+    <%= text_field_tag :n, "", :class => 'input-field' %><br/><br/>
+    Обработать xml на сервере
+    <%= check_box_tag 'serv', '', false, :class => 'check-box' %><br/><br/>
+    <%= submit_tag 'Найти', :class => 'button-def', :id => 'submit-button' %>
+    <% end %>
+</div>
