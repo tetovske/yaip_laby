@@ -1,0 +1,8 @@
+<div class="input-form">
+    <h1>РК №2</h1>
+    <p>Задание</p>
+    <%= form_tag url_for(:controller => 'main', :action => 'result'), :method => 'get' do %>
+    <%= text_field_tag :input %></br></br>
+    <%= submit_tag 'Найти' %>
+    <% end %>
+</div>
