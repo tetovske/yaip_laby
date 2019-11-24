@@ -1,0 +1,65 @@
+Started GET "/" for ::1 at 2019-11-08 17:25:54 +0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 647)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/tetovske/Загрузки/yaip_laby-aa09a4841365483162e37454c5d14c1fb0f45002/laba8/public/packs
+Completed 200 OK in 4770ms (Views: 4762.5ms | ActiveRecord: 0.0ms | Allocations: 1304497)
+
+
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-08 17:26:12 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 1.4ms | Allocations: 326)
+Completed 200 OK in 749ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 556136)
+
+
+Started GET "/" for ::1 at 2019-11-08 17:29:28 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 150)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 15476)
+
+
+Started GET "/main/result?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-08 17:31:38 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 64)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 15447)
+
+
+Started GET "/main/index" for ::1 at 2019-11-08 17:31:40 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"fXCTzaaGUx4iP/U3nkBJbkIqU70YyfsUnjTncTeE9FxejBBUOwVogT6G2ZuB2WGcrvgHAYcgv+wURBZoUH/nJQ=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 149)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 15516)
+
+
+Started GET "/" for ::1 at 2019-11-24 02:15:10 +0300
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 648)
+Completed 200 OK in 947ms (Views: 895.7ms | ActiveRecord: 0.0ms | Allocations: 1290751)
+
+
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-24 02:15:17 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 327)
+Completed 200 OK in 753ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 548663)
+
+
+Started GET "/main/index" for ::1 at 2019-11-24 02:15:20 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"m9GPyxBdOdjGB3cYcl8swuIWTt65ej5VLI+0doDml3aaWZxj/EnjjryBTene6/kjXsehG78JdHg4ZlcB5TpslA=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 149)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 7972)
+
+

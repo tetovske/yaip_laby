@@ -1,0 +1,18 @@
+<div class="description">
+    <div class="description-header">Дасов Тит ИУ6-33Б</div>
+    <div class="description-header">Версия rails: 6.0.1</div>
+    <div class="description-main">
+        Билет №58. Дан массив E(10). Найти количество элементов массива кратных одновременно 3 и 4. 
+        Поместить полученное число на место последнего четного элемента массива.
+    </div>
+    <div class="description-main">
+        В качестве разделителей используйте пробелы. Программа обрабатывает только целые числа и игнорирует символы.
+    </div>
+</div>
+<div class="input-form">
+    <%= form_tag url_for(:controller => 'task', :action => 'result'), :method => 'get' do %>
+    <%= label_tag 'Введите значение', nil, :class => 'label-tag' %></br>
+    <%= text_field_tag :input, '2 4 8 -16 12 12 36 1 9 7', :class => 'text-field' %></br>
+    <%= submit_tag 'Пуск!', :class => 'submit-button' %>
+    <% end %>
+</div>

@@ -1,0 +1,13 @@
+<div class="output-box">
+    <p>Результат:</p>
+    <table>
+        <% unless @res == nil %>
+            <% @res.each do |elem| %>
+                <td class="result-table"><%= elem %></td>
+            <% end %>
+        <% else %>
+            <p>Нет элементова удовлетворяющих условиям поиска.</p>
+        <% end %>
+    </table>
+    <p>Нажмите на заголовок для повторного поиска.</p>
+</div>

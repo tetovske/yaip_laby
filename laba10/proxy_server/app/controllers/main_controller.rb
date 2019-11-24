@@ -3,20 +3,22 @@ require 'open-uri'
 
 class MainController < ApplicationController
 
-    @@xslt_public_path = '/parser.xslt'
-    @@server_url = 'http://localhost:3000/main/result.xml'
-
     def index; end 
 
     def result
-        xml_responce = Nokogiri::XML(open("#{@@server_url}?n=#{params[:n]}"))
+        xml_responce = Nokogiri::XML(open("#{SERVER_URL}?n=#{params[:n]}"))
         
-        unless params[:serv]
-            render xml: append_xslt_instr(xml_responce, @@xslt_public_path).to_xml
-        else
-            render inline: append_xslt(xml_responce, "#{Rails.root}/public#{@@xslt_public_path}").to_html
-        end
+        case params[:handle]
+        when 'Сервер'
+            render inline: append_xslt(xml_responce, "#{Rails.root}/public#{XSLT_PUBLIC}").to_html
+        when 'Браузер'
+            render xml: append_xslt_instr(xml_responce, XSLT_PUBLIC).to_xml
+        when 'Не обрабатывать'
+            render xml: xml_responce
+        end    
     end
+
+    protected
 
     def append_xslt_instr(xml_doc, xslt_href)
         instr = Nokogiri::XML::ProcessingInstruction.new(xml_doc, "xml-stylesheet", "type=\"text/xsl\" href=\"#{xslt_href}\"")
@@ -28,4 +30,7 @@ class MainController < ApplicationController
         xslt = Nokogiri::XSLT(File.read(xslt_href))
         xslt.transform(xml_doc)
     end
+
+    XSLT_PUBLIC = '/parser.xslt'
+    SERVER_URL = 'http://localhost:3000/main/result.xml'
 end

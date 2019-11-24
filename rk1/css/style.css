@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+    background: linear-gradient(90deg, #d4fc79, #96e6a1);
+    font-family: "Product Sans";
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#header {
+    margin: 50px 0;
+}
+
+#task {
+    margin: 50px 0;
+    font-family: "Product Sans";
+    font-size: 20px;
+    font-weight: 600;
+    margin: 50px auto;
+    width: 400px;
+}
+
+#outstr {
+    margin-top: 30px;
+}
+
+.input-header {
+    margin: 10px 0;
+    text-align: left;
+}
+
+#input-field {
+    margin: auto 30px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: "Product Sans";
+    font-size: 20px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#input-button {
+    /*background: linear-gradient(#f6d365, #fda085);*/
+    background-color: grey;
+    box-shadow: 0 -5px 35px 1px rgba(0, 0, 0, 0.26);
+    color: white;
+    border-radius: 30px;
+    margin: 40px 30px;
+    padding: 15px;
+    transition: .2s;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#input-button:hover {
+    transform: scale(1.03);
+    transition: .2s;
+}
+
+#input-button:active {
+    transform: scale(.98);
+    transition: .2s;
+}
+
+.input {
+    width: 400px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 30px;
+    margin: 30px auto;
+    box-shadow: 0 -5px 35px 1px rgba(0, 0, 0, 0.26);
+    padding: 50px 100px;
+    color: rgb(66, 66, 66);
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("../fonts/11823.ttf");
+}
