@@ -4,16 +4,22 @@ class MainController < ApplicationController
   def index; end
 
   def result
-    @res = check_ex(params[:n]).nil? ? calc(params[:n]) : check_ex(params[:n])
+    @res = get_friend_number(params[:n].to_i) 
   end
 
   protected
 
-  def check_ex(input_val:)
-    Calculation.find_responce(n_val: input_val)
+  def get_friend_number(input)
+    unless Calculation.find_res(input).nil?
+      res = Calculation.find_res(input)
+    else 
+      res = calc(input)
+      Calculation.insert_res(input, res)
+    end
+    res
   end
 
-  def calc(range:)
+  def calc(range)
     arr = []
     range.to_i.times do |i|
       range.to_i.times do |j|
@@ -29,7 +35,7 @@ class MainController < ApplicationController
     res = []
     devider = x_val / 2
     while devider > 0
-      res.puish(devider) if x_val % devider == 0
+      res.push(devider) if x_val % devider == 0
       devider -= 1
     end
     res

@@ -132,3 +132,734 @@ Migrating to CreateCalculations (20191125022432)
   [1m[36mCalculation Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 400], ["LIMIT", 1]]
   [1m[36mCalculation Create (0.6ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["input", 400], ["created_at", "2019-11-25 03:15:40.068278"], ["updated_at", "2019-11-25 03:15:40.068278"]]
   [1m[35m (112.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/main/result.xml?n=300" for ::1 at 2019-11-25 15:52:49 +0300
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 671)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0; required keyword: input_val)):
+  
+app/controllers/main_controller.rb:12:in `check_ex'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result.xml?n=300" for ::1 at 2019-11-25 15:57:05 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 997)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 2)):
+  
+app/models/calculation.rb:5:in `find_responce'
+app/controllers/main_controller.rb:13:in `check_ex'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/" for ::1 at 2019-11-25 15:57:07 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 20.3ms | Allocations: 367)
+Completed 200 OK in 1118ms (Views: 1117.3ms | ActiveRecord: 0.0ms | Allocations: 1276083)
+
+
+Started GET "/" for ::1 at 2019-11-25 16:01:28 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 154)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 7978)
+
+
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 16:03:13 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 572)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 2)):
+  
+app/models/calculation.rb:5:in `find_responce'
+app/controllers/main_controller.rb:13:in `check_ex'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 16:45:20 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 4535)
+
+
+  
+NameError (undefined local variable or method `n_val' for #<Class:0x000055cf6c09dad0>):
+  
+app/models/calculation.rb:8:in `find_res'
+app/controllers/main_controller.rb:13:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 16:46:14 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms | Allocations: 1564)
+
+
+  
+ArgumentError (Unsupported argument type: 300 (Integer)):
+  
+app/models/calculation.rb:8:in `find_res'
+app/controllers/main_controller.rb:13:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 16:47:36 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (19.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 20.5ms | Allocations: 6950)
+
+
+  
+NoMethodError (undefined method `parse' for #<Calculation:0x00007f34cd184a08>):
+  
+app/models/calculation.rb:8:in `find_res'
+app/controllers/main_controller.rb:13:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 16:48:34 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.6ms | Allocations: 5810)
+
+
+  
+NoMethodError (undefined method `parse' for "{}":String):
+  
+app/models/calculation.rb:8:in `find_res'
+app/controllers/main_controller.rb:13:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 16:52:06 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.8ms | Allocations: 5789)
+
+
+  
+NoMethodError (undefined method `puish' for []:Array
+Did you mean?  push):
+  
+app/controllers/main_controller.rb:38:in `find_dev'
+app/controllers/main_controller.rb:27:in `block (2 levels) in calc'
+app/controllers/main_controller.rb:25:in `times'
+app/controllers/main_controller.rb:25:in `block in calc'
+app/controllers/main_controller.rb:24:in `times'
+app/controllers/main_controller.rb:24:in `calc'
+app/controllers/main_controller.rb:14:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 16:52:35 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+Completed 500 Internal Server Error in 699ms (ActiveRecord: 0.6ms | Allocations: 545030)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 2)):
+  
+app/models/calculation.rb:11:in `insert_res'
+app/controllers/main_controller.rb:15:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 16:53:01 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+Completed 500 Internal Server Error in 707ms (ActiveRecord: 0.6ms | Allocations: 545016)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/models/calculation.rb:12:in `insert_res'
+app/controllers/main_controller.rb:15:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 16:53:41 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 16.6ms | Allocations: 345)
+Completed 200 OK in 1517ms (Views: 737.6ms | ActiveRecord: 0.8ms | Allocations: 1823017)
+
+
+Started GET "/" for ::1 at 2019-11-25 16:54:36 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 485)
+Completed 200 OK in 748ms (Views: 742.8ms | ActiveRecord: 0.0ms | Allocations: 1276901)
+
+
+Started GET "/main/result?n=303&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 16:58:19 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"303", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 303], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.6ms | Allocations: 5073)
+
+
+  
+NoMethodError (undefined method `json_responce' for nil:NilClass):
+  
+app/models/calculation.rb:8:in `find_res'
+app/controllers/main_controller.rb:13:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+  [1m[35m (8.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Load (21.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" ORDER BY "calculations"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" ORDER BY "calculations"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Destroy (24.9ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (90.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" ORDER BY "calculations"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Destroy (0.5ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 2]]
+  [1m[35m (81.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "calculations"[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" ORDER BY "calculations"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Destroy (0.5ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 3]]
+  [1m[35m (110.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "calculations"[0m
+Started GET "/" for ::1 at 2019-11-25 19:41:58 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 21.3ms | Allocations: 485)
+Completed 200 OK in 1103ms (Views: 1064.5ms | ActiveRecord: 0.0ms | Allocations: 1276915)
+
+
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 19:42:03 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.7ms | Allocations: 2744)
+
+
+  
+NoMethodError (undefined method `json_responce' for nil:NilClass):
+  
+app/models/calculation.rb:8:in `find_res'
+app/controllers/main_controller.rb:13:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 19:54:26 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms | Allocations: 2348)
+
+
+  
+NoMethodError (undefined method `first' for nil:NilClass):
+  
+app/models/calculation.rb:8:in `find_res'
+app/controllers/main_controller.rb:13:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 19:56:11 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 25.2ms | Allocations: 1447)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.4ms | Allocations: 4130)
+
+
+  
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    1: <h1>Результат вычислений</h1></br>
+    2: <% arr = @res %>
+    3: <% unless arr.empty? %>
+    4:     <table class="result-table">
+    5:         <tr>
+    6:             <th colspan="2">Дружественные числа</th>
+  
+app/views/main/result.html.erb:3
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 19:59:30 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 300], ["json_responce", "[[220,284]]"], ["created_at", "2019-11-25 16:59:30.806051"], ["updated_at", "2019-11-25 16:59:30.806051"]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[35m (196.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 80)
+Completed 200 OK in 926ms (Views: 6.1ms | ActiveRecord: 197.5ms | Allocations: 557730)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 19:59:34 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"vbaeVWSBRn1N+Z9Dvlz35QmgSZE9t4LWe/WoIh/ZkLi8Po39iJWcKzd/pbIS6CIEtXGmVDvEyPtvHEtVegVrWg=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 7969)
+
+
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 19:59:38 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.3ms | Allocations: 1578)
+
+
+  
+TypeError (no implicit conversion of Calculation into String):
+  
+app/models/calculation.rb:8:in `find_res'
+app/controllers/main_controller.rb:13:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+Started GET "/main/result?n=400&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 19:59:53 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"400", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 400], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 400], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 400], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 400], ["json_responce", "[[220,284]]"], ["created_at", "2019-11-25 16:59:55.461863"], ["updated_at", "2019-11-25 16:59:55.461863"]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[35m (140.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 68)
+Completed 200 OK in 1742ms (Views: 10.1ms | ActiveRecord: 141.1ms | Allocations: 973139)
+
+
+Started GET "/main/result?n=400&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:00:19 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"400", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 400], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 400], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms | Allocations: 1535)
+
+
+  
+TypeError (no implicit conversion of Calculation into String):
+  
+app/models/calculation.rb:8:in `find_res'
+app/controllers/main_controller.rb:13:in `get_friend_number'
+app/controllers/main_controller.rb:7:in `result'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" ORDER BY "calculations"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" ORDER BY "calculations"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCalculation Load (1.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."index" = ? LIMIT ?[0m  [["index", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.4ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+Started GET "/" for ::1 at 2019-11-25 20:08:37 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 156)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 8108)
+
+
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:08:41 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 23ms (Views: 9.2ms | ActiveRecord: 0.3ms | Allocations: 13282)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:08:43 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"aMCYjY7OTsQVHvCMA5bcCM77/hlwmG3xttpoer/FCMtpSIslYtqUkm+Yyn2vIgnpcioR3HbrJ9yiM4sN2hnzKQ=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 7970)
+
+
+Started GET "/main/result?n=400&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:08:46 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"400", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 400], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 400], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 400], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 400], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.3ms | Allocations: 68)
+Completed 200 OK in 38ms (Views: 29.7ms | ActiveRecord: 0.4ms | Allocations: 9741)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:08:47 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"oHlo02TwoHl4g/v/S71KBkg11pZw6ERTv+cm9PQ253+h8Xt7iOR6LwIFwQ7nCZ/n9OQ5U3abDn6rDsWDkeocnQ=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 7970)
+
+
+Started GET "/main/result?n=500&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:08:50 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"500", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 500], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCalculation Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 500], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 500], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 500], ["json_responce", "[[220,284]]"], ["created_at", "2019-11-25 17:08:53.085577"], ["updated_at", "2019-11-25 17:08:53.085577"]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[35m (117.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 68)
+Completed 200 OK in 3081ms (Views: 18.0ms | ActiveRecord: 118.3ms | Allocations: 1513200)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:08:54 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"RNf67hgSAt3it6lcxMBK+/3/g0zeEjXuUuWb8paDDbJFX+lG9AbYi5gxk61odJ8aQS5sidhhf8NGDHiF81/2UA=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 7967)
+
+
+Started GET "/main/result?n=500&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:08:57 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"500", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 500], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 500], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 500], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 500], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.3ms | Allocations: 68)
+Completed 200 OK in 19ms (Views: 10.8ms | ActiveRecord: 0.4ms | Allocations: 9741)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:08:59 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"WiQAbHoXxPgax6DM78qL3b1L0jGvByidGtGbMI+cNRtbrBPElgMermBBmj1Dfl48AZo99Kl0YrAOOHhH6kDO+Q=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 7965)
+
+
+Started GET "/main/result?n=1300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:09:20 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"1300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCalculation Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 1300], ["json_responce", "[[220,284],[1184,1210]]"], ["created_at", "2019-11-25 17:10:06.057508"], ["updated_at", "2019-11-25 17:10:06.057508"]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[35m (112.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 72)
+Completed 200 OK in 45906ms (Views: 17.1ms | ActiveRecord: 112.9ms | Allocations: 10153172)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:10:09 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"nMFI01qaZW6FClTOWcFjxL5pqsndW+jOifehw38CZVSdSVt7to6/OP+Mbj/1dbYlArhFDNsoouOdHkK0Gt6etg=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 7966)
+
+
+Started GET "/main/result?n=1300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:10:12 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"1300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+Completed 200 OK in 14ms (Views: 8.8ms | ActiveRecord: 0.3ms | Allocations: 9742)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:10:13 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"VUtz/F0+axuJ9Vl57Zdr4RlPo76KvVKZ7iQbuzpSF/BUw2BUsSqxTfNzY4hBI74ApZ5Me4zOGLT6zfjMX47sEg=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 7968)
+
+
+Started GET "/main/result?n=1300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:10:16 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"1300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+Completed 200 OK in 13ms (Views: 7.8ms | ActiveRecord: 0.3ms | Allocations: 9739)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:10:16 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"ptXFB4q5tqRo6sg+yvvCKdrFWEwT7V37ZD3ohsrmdqinXdavZq1s8hJs8s9mTxfIZhS3iRWeF9Zw1AvxrzqNSg=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 7966)
+
+
+Started GET "/main/result?n=1300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:10:19 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"1300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 72)
+Completed 200 OK in 22ms (Views: 15.2ms | ActiveRecord: 0.3ms | Allocations: 9747)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:12:23 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"ptXFB4q5tqRo6sg+yvvCKdrFWEwT7V37ZD3ohsrmdqinXdavZq1s8hJs8s9mTxfIZhS3iRWeF9Zw1AvxrzqNSg=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 7973)
+
+
+Started GET "/main/result?n=1300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:12:29 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"1300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+Completed 200 OK in 22ms (Views: 10.3ms | ActiveRecord: 0.4ms | Allocations: 9737)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/main/index" for ::1 at 2019-11-25 20:36:31 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"T1cUul74GUeLQ0QS4wdbB5pbXfqp91l5sThYbMD5LshO3wcSsuzDEfHFfuNPs47mJoqyP6+EE1Sl0bsbpSXVKg=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 148)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 7978)
+
+
+Started GET "/main/result?n=230&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:36:36 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"230", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 230], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCalculation Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 230], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 230], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 230], ["json_responce", "[]"], ["created_at", "2019-11-25 17:36:37.120851"], ["updated_at", "2019-11-25 17:36:37.120851"]]
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  [1m[35m (93.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `insert_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.3ms | Allocations: 64)
+Completed 200 OK in 483ms (Views: 16.5ms | ActiveRecord: 93.9ms | Allocations: 330451)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:36:40 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"RvhXj7Zqg46u87XcplUL76+AFLny4KWaWiPF1o8EcBlHcEQnWn5Z2NR1jy0K4d4OE1H7fPST77dOyiah6tiL+w=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 7966)
+
+
+Started GET "/main/result?n=230&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:36:44 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"230", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 230], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 230], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 230], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 230], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+Completed 200 OK in 22ms (Views: 13.8ms | ActiveRecord: 0.4ms | Allocations: 9733)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:36:45 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"1i6+Pec4Sbn5iVdxDzBHlFFohNkGhJ8Wwq22Ah9NqnnXpq2VCyyT74MPbYCjhJJ17blrHAD31TvWRFV1epFRmw=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 7966)
+
+
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:36:48 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.3ms | Allocations: 68)
+Completed 200 OK in 20ms (Views: 9.7ms | ActiveRecord: 0.4ms | Allocations: 9738)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:36:49 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"CWKdx7NTO97eiD3HsKr3IoVfr4ISElqq2gEmCPMs94AI6o5vX0fhiKQOBzYcHiLDOY5ARxRhEIfO6MV/lvAMYg=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 148)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 7968)
+
+
+Started GET "/main/result?n=1300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:36:52 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"1300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+Completed 200 OK in 16ms (Views: 9.2ms | ActiveRecord: 0.3ms | Allocations: 9744)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:36:54 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"wvO4xvl1v+ggfgDt0siVQ4dE/xW94UDVhzm8Em/+Nw3De6tuFWFlvlr4Ohx+fECiO5UQ0LuSCviT0F9lCiLM7w=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 7969)
+
+
+Started GET "/main/result?n=1300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-25 20:37:03 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"1300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.html.erb within layouts/application
+  Rendered main/result.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 9743)
+
+
+Started GET "/main/index" for ::1 at 2019-11-25 20:37:06 +0300
+Processing by MainController#index as HTML
+  Parameters: {"authenticity_token"=>"UavCitYtb6mWQRP5a8TVWzrbh6lKLWFQzeuWcP047dlQI9EiOjm1/+zHKQjHcAC6hgpobExeK33ZAnUHmOQWOw=="}
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 148)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 7970)
+
+
