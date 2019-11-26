@@ -83,3 +83,95 @@ Completed 200 OK in 3907ms (Views: 3902.0ms | ActiveRecord: 0.0ms | Allocations:
 [Webpacker] Compiled all packs in /home/tetovske/Загрузки/yaip_laby-aa09a4841365483162e37454c5d14c1fb0f45002/laba8/public/packs-test
 Completed 200 OK in 4322ms (Views: 3487.7ms | ActiveRecord: 0.0ms | Allocations: 1810702)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "calculations"[0m
+  [1m[35m (192.9ms)[0m  [1m[35mCREATE TABLE "calculations" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "input" integer, "json_responce" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (109.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (85.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20191125022432)[0m
+  [1m[35m (98.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", "2019-11-25 22:52:19.559836"], ["updated_at", "2019-11-25 22:52:19.559836"]]
+  [1m[35m (84.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "12ba8830b24faac1bb6dfccbe29749cae1b00c4a"], ["created_at", "2019-11-25 22:52:19.651285"], ["updated_at", "2019-11-25 22:52:19.651285"]]
+  [1m[35m (82.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.3ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 1500], ["json_responce", "[[220, 284], [1184, 1210]]"], ["created_at", "2019-11-25 22:52:19.786513"], ["updated_at", "2019-11-25 22:52:19.786513"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.3ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 300], ["json_responce", "{}"], ["created_at", "2019-11-25 22:52:19.791504"], ["updated_at", "2019-11-25 22:52:19.791504"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Destroy (0.1ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 1500], ["json_responce", "[[220, 284], [1184, 1210]]"], ["created_at", "2019-11-25 22:56:46.626967"], ["updated_at", "2019-11-25 22:56:46.626967"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.1ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 300], ["json_responce", "{}"], ["created_at", "2019-11-25 22:56:46.630585"], ["updated_at", "2019-11-25 22:56:46.630585"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Destroy (0.1ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 1500], ["json_responce", "[[220, 284], [1184, 1210]]"], ["created_at", "2019-11-25 22:57:09.920526"], ["updated_at", "2019-11-25 22:57:09.920526"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.1ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 300], ["json_responce", "{}"], ["created_at", "2019-11-25 22:57:09.924156"], ["updated_at", "2019-11-25 22:57:09.924156"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Destroy (0.1ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m

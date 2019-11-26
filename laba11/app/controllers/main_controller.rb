@@ -4,7 +4,12 @@ class MainController < ApplicationController
   def index; end
 
   def result
-    @res = get_friend_number(params[:n].to_i) 
+    @res = get_friend_number(params[:n].to_i)
+    respond_to do |format|
+      format.html
+      format.json { render :json => @res.to_json }
+      format.xml { render :xml => @res.to_xml }
+    end
   end
 
   protected
@@ -12,7 +17,7 @@ class MainController < ApplicationController
   def get_friend_number(input)
     unless Calculation.find_res(input).nil?
       res = Calculation.find_res(input)
-    else 
+    else
       res = calc(input)
       Calculation.insert_res(input, res)
     end

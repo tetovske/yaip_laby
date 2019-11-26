@@ -10,7 +10,7 @@ class Calculation < ApplicationRecord
 
     def insert_res(n_val, res)
       record =  Calculation.new(input: n_val, json_responce: res.to_json)
-      record.save if record.valid?
+      record.save unless record.valid?
     end
   end
 end
