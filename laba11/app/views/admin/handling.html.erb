@@ -1,0 +1,14 @@
+<h1>Админка</h1>
+<table class="result-table">
+    <th colspan="2">Данные Дазы Банных</th>
+    <% unless @rec.nil? %>
+        <% @rec.each do |record| %>
+            <tr>
+                <td><%= record.input %></td>
+                <td><%= record.json_responce %></td>
+            </tr>
+        <% end %>
+    <% else %>
+        <p>База Данных пуста</p>
+    <% end %>
+</table>
