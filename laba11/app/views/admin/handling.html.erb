@@ -1,14 +1,25 @@
-<h1>Админка</h1>
-<table class="result-table">
-    <th colspan="2">Данные Дазы Банных</th>
-    <% unless @rec.nil? %>
-        <% @rec.each do |record| %>
-            <tr>
-                <td><%= record.input %></td>
-                <td><%= record.json_responce %></td>
-            </tr>
-        <% end %>
-    <% else %>
-        <p>База Данных пуста</p>
-    <% end %>
-</table>
+<h1>Администрирование</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <table class="result-table">
+                <th colspan="2">База Данных</th>
+                <% unless @rec.nil? %>
+                    <% @rec.each do |record| %>
+                        <tr>
+                            <td><%= record.input %></td>
+                            <td><%= record.json_responce %></td>
+                        </tr>
+                    <% end %>
+                <% else %>
+                    <p>База Данных пуста</p>    
+                <% end %>
+            </table>
+        </div>
+        <div class="col-4">
+            <div class="button-def" href="/admin/auth">
+                Бд в формате XML
+            </div>
+        </div>
+    </div>
+</div>
