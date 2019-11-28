@@ -5,4 +5,8 @@ class AdminController < ApplicationController
   def handling
     @rec = Calculation.all
   end
+
+  def res
+    @rec = Calculation.all
+  end
 end

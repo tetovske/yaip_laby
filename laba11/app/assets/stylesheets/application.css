@@ -29,6 +29,16 @@
     font-family: 'Montserrat';
 }
 
+.default-link {
+    text-decoration: none;
+    color: white;
+}
+
+.default-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .page {
     padding: 0 70px;
 }
@@ -57,10 +67,7 @@
     background-color: #2EE59D;
     color: white;
     transition: .2s;
-    /*
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    */
+    cursor: pointer;
 }
 
 .logo:hover {
