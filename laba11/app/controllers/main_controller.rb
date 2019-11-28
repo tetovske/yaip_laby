@@ -5,8 +5,7 @@ class MainController < ApplicationController
   def index; end
 
   def result
-    num = FriendNumbers.call(input: params[:n].to_i)
-    @res = num.res
+    @res = FriendNumbers.call(input: params[:n].to_i).res
     respond_to do |format|
       format.js
       format.html

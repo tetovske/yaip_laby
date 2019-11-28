@@ -1,6 +1,16 @@
-console.log("asdasd");
-var xml_data = `
-    <%= render :xml => @rec %>
+var insert = `
+    <%= @rec %>
 `;
-alert('Hii');
-$('.xml-data-output').append(`${xml_data}`);
+
+$('document').ready(function() {
+    prepare();
+    main();
+});
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+
+function main() {
+    $('#xml-data-output').append(`${insert}`);
+}

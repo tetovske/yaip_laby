@@ -4197,3 +4197,4153 @@ Processing by AdminController#handling as JS
 Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.1ms | Allocations: 7715)
 
 
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:01:32 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1138)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.2ms | Allocations: 8930)
+
+
+Started GET "/admin/handling?class=button-def" for 127.0.0.1 at 2019-11-28 23:01:34 +0300
+Processing by AdminController#handling as JS
+  Parameters: {"class"=>"button-def"}
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.6ms | Allocations: 918)
+Completed 200 OK in 37ms (Views: 7.4ms | ActiveRecord: 0.2ms | Allocations: 7897)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:01:56 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1143)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.3ms | Allocations: 8937)
+
+
+Started GET "/admin/handling?class=button-def" for 127.0.0.1 at 2019-11-28 23:01:57 +0300
+Processing by AdminController#handling as JS
+  Parameters: {"class"=>"button-def"}
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 3.0ms | Allocations: 890)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.3ms | Allocations: 7855)
+
+
+Started GET "/admin/handling?class=button-def" for 127.0.0.1 at 2019-11-28 23:01:58 +0300
+Processing by AdminController#handling as JS
+  Parameters: {"class"=>"button-def"}
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 3.1ms | Allocations: 885)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.3ms | Allocations: 7697)
+
+
+Started GET "/admin/handling?class=button-def" for 127.0.0.1 at 2019-11-28 23:02:02 +0300
+Processing by AdminController#handling as JS
+  Parameters: {"class"=>"button-def"}
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 3.0ms | Allocations: 885)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.3ms | Allocations: 7698)
+
+
+Started GET "/admin/handling?class=button-def" for 127.0.0.1 at 2019-11-28 23:02:02 +0300
+Processing by AdminController#handling as JS
+  Parameters: {"class"=>"button-def"}
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 3.4ms | Allocations: 885)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.3ms | Allocations: 7698)
+
+
+Started GET "/admin/handling?class=button-def" for 127.0.0.1 at 2019-11-28 23:02:02 +0300
+Processing by AdminController#handling as JS
+  Parameters: {"class"=>"button-def"}
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 3.0ms | Allocations: 885)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.3ms | Allocations: 7698)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:02:31 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.7ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1138)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.7ms | Allocations: 8934)
+
+
+Started GET "/admin/handling?class=button-def" for 127.0.0.1 at 2019-11-28 23:02:39 +0300
+Processing by AdminController#handling as JS
+  Parameters: {"class"=>"button-def"}
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.1ms | Allocations: 890)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.2ms | Allocations: 7855)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:02:52 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1133)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.2ms | Allocations: 8933)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:02:53 +0300
+Processing by AdminController#handling as JS
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 3.0ms | Allocations: 878)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.3ms | Allocations: 7841)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:03:56 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1077)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.1ms | Allocations: 8871)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:04:01 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 101)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 1704)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:05:10 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1076)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.2ms | Allocations: 8871)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:05:11 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.8ms | Allocations: 1024)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2599)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var xml_data = `
+    2:     <%= render :xml => @rec %>
+    3: `;
+    4: 
+    5: $('.xml-data-output').append(`${xml_data}`);
+  
+app/views/admin/res.js.erb:2
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:05:25 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1096)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.2ms | Allocations: 8937)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:05:26 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.4ms | Allocations: 1019)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2598)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var xml_data = `
+    2:     <%= render :xml => @rec %>
+    3: `;
+    4: 
+    5: alert("hwwew");
+  
+app/views/admin/res.js.erb:2
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:05:28 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.8ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1386)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var xml_data = `
+    2:     <%= render :xml => @rec %>
+    3: `;
+    4: 
+    5: alert("hwwew");
+  
+app/views/admin/res.js.erb:2
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:05:28 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 907)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1394)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var xml_data = `
+    2:     <%= render :xml => @rec %>
+    3: `;
+    4: 
+    5: alert("hwwew");
+  
+app/views/admin/res.js.erb:2
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:05:28 +0300
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:05:28 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2915)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var xml_data = `
+    2:     <%= render :xml => @rec %>
+    3: `;
+    4: 
+    5: alert("hwwew");
+  
+app/views/admin/res.js.erb:2
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 905)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms | Allocations: 67897)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var xml_data = `
+    2:     <%= render :xml => @rec %>
+    3: `;
+    4: 
+    5: alert("hwwew");
+  
+app/views/admin/res.js.erb:2
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:05:34 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.5ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1098)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.5ms | Allocations: 8900)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:05:34 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.4ms | Allocations: 1023)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2599)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var xml_data = `
+    2:     <%= render :xml => @rec %>
+    3: `;
+    4: 
+    5: alert("hwwew");
+  
+app/views/admin/res.js.erb:2
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:05:35 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.9ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1386)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var xml_data = `
+    2:     <%= render :xml => @rec %>
+    3: `;
+    4: 
+    5: alert("hwwew");
+  
+app/views/admin/res.js.erb:2
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:05:35 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1513)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var xml_data = `
+    2:     <%= render :xml => @rec %>
+    3: `;
+    4: 
+    5: alert("hwwew");
+  
+app/views/admin/res.js.erb:2
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:05:36 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1942)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var xml_data = `
+    2:     <%= render :xml => @rec %>
+    3: `;
+    4: 
+    5: alert("hwwew");
+  
+app/views/admin/res.js.erb:2
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:06:02 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1079)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.3ms | Allocations: 8881)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:07 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.4ms | Allocations: 1031)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2607)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:08 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.8ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1386)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:09 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1640)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:09 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2258)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:09 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 905)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 25900)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:14 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.8ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1385)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:14 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 909)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1464)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:15 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1385)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:15 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 905)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2788)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:15 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1385)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:15 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1385)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:16 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 971)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1457)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:17 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1385)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:17 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.8ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1385)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:18 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.9ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1385)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:06:45 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (5.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1070)
+Completed 200 OK in 31ms (Views: 23.8ms | ActiveRecord: 5.0ms | Allocations: 8872)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:46 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.4ms | Allocations: 1030)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2603)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: $('.xml-data-output').append('asdasd');
+    2: var xml_data = `
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: alert("hwwew");
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:06:57 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.5ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1100)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.5ms | Allocations: 8899)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:58 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 100)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 1696)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:06:59 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 505)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:00 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 501)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:00 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 499)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:00 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 504)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:00 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 501)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:00 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 500)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:01 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 498)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:01 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 501)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:01 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 502)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:01 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 502)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:07:27 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1076)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 8866)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:28 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 90)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 1673)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:28 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 508)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:07:35 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1076)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.3ms | Allocations: 8868)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:36 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 90)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 1671)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:37 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 507)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:37 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 505)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:07:55 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1076)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.2ms | Allocations: 8870)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:07:56 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 95)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1681)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:08:14 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1076)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.2ms | Allocations: 8870)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:08:15 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 97)
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 1686)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:08:16 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 507)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:13:51 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1094)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.2ms | Allocations: 8880)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:13:52 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.9ms | Allocations: 1031)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2607)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:13:53 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1016)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:13:54 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1016)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:13:54 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1016)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:13:55 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1016)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:07 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 3.7ms | Allocations: 1017)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1499)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:07 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.7ms | Allocations: 1085)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1665)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:08 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 1017)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1497)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:08 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 1017)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 21785)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:09 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.2ms | Allocations: 1016)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:19 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1016)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:19 +0300
+Processing by AdminController#res as JS
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:19 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 1017)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1497)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 1017)
+Completed 500 Internal Server Error in 200ms (ActiveRecord: 0.0ms | Allocations: 279568)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:19 +0300
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:19 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 98.4ms | Allocations: 130845)
+Completed 500 Internal Server Error in 199ms (ActiveRecord: 0.0ms | Allocations: 289422)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 2.0ms | Allocations: 1017)
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms | Allocations: 194039)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:21 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 1016)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:21 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 1053)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1662)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output').empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:14:32 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1098)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.2ms | Allocations: 8899)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:33 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1030)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2604)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+console.log("Hwllsdjfsdflsdf");
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    console.log("Hwllsdjfsdflsdf");
+6:    
+7:    $('document').ready(function() {
+8:        prepare();
+9:    });
+10:    
+11:    $('.xml-data-output').append(`${lol}`);
+12:    
+13:    function prepare() {
+14:        $('.xml-data-output').empty();
+15:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:33 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 1018)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+console.log("Hwllsdjfsdflsdf");
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    console.log("Hwllsdjfsdflsdf");
+6:    
+7:    $('document').ready(function() {
+8:        prepare();
+9:    });
+10:    
+11:    $('.xml-data-output').append(`${lol}`);
+12:    
+13:    function prepare() {
+14:        $('.xml-data-output').empty();
+15:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:34 +0300
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:34 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 1019)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1497)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+console.log("Hwllsdjfsdflsdf");
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    console.log("Hwllsdjfsdflsdf");
+6:    
+7:    $('document').ready(function() {
+8:        prepare();
+9:    });
+10:    
+11:    $('.xml-data-output').append(`${lol}`);
+12:    
+13:    function prepare() {
+14:        $('.xml-data-output').empty();
+15:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:34 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 1019)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1497)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+console.log("Hwllsdjfsdflsdf");
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    console.log("Hwllsdjfsdflsdf");
+6:    
+7:    $('document').ready(function() {
+8:        prepare();
+9:    });
+10:    
+11:    $('.xml-data-output').append(`${lol}`);
+12:    
+13:    function prepare() {
+14:        $('.xml-data-output').empty();
+15:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 87.5ms | Allocations: 164854)
+Completed 500 Internal Server Error in 289ms (ActiveRecord: 0.0ms | Allocations: 427208)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+console.log("Hwllsdjfsdflsdf");
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    console.log("Hwllsdjfsdflsdf");
+6:    
+7:    $('document').ready(function() {
+8:        prepare();
+9:    });
+10:    
+11:    $('.xml-data-output').append(`${lol}`);
+12:    
+13:    function prepare() {
+14:        $('.xml-data-output').empty();
+15:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:36 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1018)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+console.log("Hwllsdjfsdflsdf");
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    console.log("Hwllsdjfsdflsdf");
+6:    
+7:    $('document').ready(function() {
+8:        prepare();
+9:    });
+10:    
+11:    $('.xml-data-output').append(`${lol}`);
+12:    
+13:    function prepare() {
+14:        $('.xml-data-output').empty();
+15:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:37 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:37 +0300
+  Rendered admin/res.js.erb (Duration: 1.8ms | Allocations: 1791)
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms | Allocations: 81695)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+console.log("Hwllsdjfsdflsdf");
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    console.log("Hwllsdjfsdflsdf");
+6:    
+7:    $('document').ready(function() {
+8:        prepare();
+9:    });
+10:    
+11:    $('.xml-data-output').append(`${lol}`);
+12:    
+13:    function prepare() {
+14:        $('.xml-data-output').empty();
+15:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+  Rendered admin/res.js.erb (Duration: 4.1ms | Allocations: 11825)
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:14:37 +0300
+Completed 500 Internal Server Error in 201ms (ActiveRecord: 0.0ms | Allocations: 291307)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+console.log("Hwllsdjfsdflsdf");
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    console.log("Hwllsdjfsdflsdf");
+6:    
+7:    $('document').ready(function() {
+8:        prepare();
+9:    });
+10:    
+11:    $('.xml-data-output').append(`${lol}`);
+12:    
+13:    function prepare() {
+14:        $('.xml-data-output').empty();
+15:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 1019)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1497)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+console.log("Hwllsdjfsdflsdf");
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output').empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    console.log("Hwllsdjfsdflsdf");
+6:    
+7:    $('document').ready(function() {
+8:        prepare();
+9:    });
+10:    
+11:    $('.xml-data-output').append(`${lol}`);
+12:    
+13:    function prepare() {
+14:        $('.xml-data-output').empty();
+15:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:17: syntax error, unexpected end, expecting ')'
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:15:19 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1079)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 8878)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:15:20 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.4ms | Allocations: 1028)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2601)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output')[0].empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output')[0].empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:15:21 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1016)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1493)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output')[0].empty();
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output')[0].empty();
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:15:27 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1079)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 8877)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:15:27 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 1028)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2603)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output')[0].empty();s
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output')[0].empty();s
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:15:28 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1016)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1495)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output')[0].empty();s
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output')[0].empty();s
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:15:28 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.7ms | Allocations: 1082)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1698)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output')[0].empty();s
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output')[0].empty();s
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:15:30 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1016)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1495)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+$('document').ready(function() {
+    prepare();
+});
+
+$('.xml-data-output').append(`${lol}`);
+
+function prepare() {
+    $('.xml-data-output')[0].empty();s
+}
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    $('document').ready(function() {
+6:        prepare();
+7:    });
+8:    
+9:    $('.xml-data-output').append(`${lol}`);
+10:    
+11:    function prepare() {
+12:        $('.xml-data-output')[0].empty();s
+13:    }
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:15: syntax error, unexpected end, expecting ')'
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:16:16 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1098)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms | Allocations: 8898)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:16:17 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 18.9ms | Allocations: 1014)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 2592)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+
+$('.xml-data-output').append(`${lol}`);
+
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    
+6:    $('.xml-data-output').append(`${lol}`);
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:16:18 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1002)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1482)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+
+$('.xml-data-output').append(`${lol}`);
+
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    
+6:    $('.xml-data-output').append(`${lol}`);
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:16:19 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.3ms | Allocations: 1002)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1482)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check var lol = `
+    <%= render :xml =>  %>
+`;
+
+
+$('.xml-data-output').append(`${lol}`);
+
+):
+1:    var lol = `
+2:        <%= render :xml =>  %>
+3:    `;
+4:    
+5:    
+6:    $('.xml-data-output').append(`${lol}`);
+  
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+app/views/admin/res.js.erb:2: syntax error, unexpected ')'
+app/views/admin/res.js.erb:9: syntax error, unexpected end, expecting ')'
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:16:27 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1079)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.2ms | Allocations: 8880)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:16:28 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 98)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1696)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:16:28 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 497)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:16:41 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1076)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 8864)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:16:42 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 108)
+Completed 200 OK in 7ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 1694)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:16:43 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 503)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:16:44 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 500)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:16:44 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 508)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:17:00 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1076)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms | Allocations: 8865)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:17:01 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 102)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1685)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:18:15 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1076)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.2ms | Allocations: 8869)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:18:16 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 119)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1713)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:21:18 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1078)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms | Allocations: 8879)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:21:19 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.5ms | Allocations: 1035)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2602)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:21:20 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 905)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1387)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:21:29 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1079)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.1ms | Allocations: 8882)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:21:30 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.6ms | Allocations: 1038)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2615)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:21:31 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.9ms | Allocations: 905)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1387)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:21:31 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 907)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1559)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:21:32 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1386)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:21:41 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1098)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.2ms | Allocations: 8901)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:21:42 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.7ms | Allocations: 115)
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 1710)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:21:52 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1076)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 8864)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:21:53 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 111)
+Completed 200 OK in 7ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 1698)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:21:54 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 507)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:21:58 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1076)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms | Allocations: 8867)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:00 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 1034)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2595)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:01 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.9ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1381)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:01 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.9ms | Allocations: 905)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1380)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:02 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1452)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:02 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:02 +0300
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:02 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1380)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1380)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:03 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.8ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1380)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:03 +0300
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:03 +0300
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:03 +0300
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:03 +0300
+Processing by AdminController#res as JS
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1825)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendering admin/res.js.erb
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1387)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 905)
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 905)
+Completed 500 Internal Server Error in 397ms (ActiveRecord: 0.0ms | Allocations: 559256)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 0.0ms | Allocations: 152331)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:04 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1380)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:04 +0300
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:05 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 905)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 3998)
+
+
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 5567)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:26 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.1ms | Allocations: 905)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1380)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:27 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 907)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1527)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:22:40 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1081)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 8878)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:41 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 117)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1711)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:42 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 506)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:42 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 504)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:22:46 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1076)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms | Allocations: 8865)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:55 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.6ms | Allocations: 1033)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2597)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:56 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.9ms | Allocations: 905)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1384)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:57 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.9ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1383)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:22:57 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 905)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1383)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Responce</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:23:01 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.8ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1079)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.8ms | Allocations: 8879)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:02 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.5ms | Allocations: 1039)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2615)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2: s
+    3:     <p>Responce</p>
+    4:     <%= render :xml => @rec %>
+    5: `;
+    6: 
+    7: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:4
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:03 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.9ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1386)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2: s
+    3:     <p>Responce</p>
+    4:     <%= render :xml => @rec %>
+    5: `;
+    6: 
+    7: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:4
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:04 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.9ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1385)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2: s
+    3:     <p>Responce</p>
+    4:     <%= render :xml => @rec %>
+    5: `;
+    6: 
+    7: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:4
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:04 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.9ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1385)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2: s
+    3:     <p>Responce</p>
+    4:     <%= render :xml => @rec %>
+    5: `;
+    6: 
+    7: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:4
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:23:09 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1079)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.2ms | Allocations: 8884)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:10 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.2ms | Allocations: 119)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 1718)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:10 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 500)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:11 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 503)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:11 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 504)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:11 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 501)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:23:46 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.5ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1080)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.5ms | Allocations: 8884)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:47 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 112)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 1697)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:47 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 505)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:47 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 501)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:23:48 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 499)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:25:05 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1078)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.3ms | Allocations: 8873)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:25:08 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 111)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1697)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:25:09 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 501)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:25:10 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 503)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:25:12 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 502)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:25:19 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 499)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:25:37 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1077)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.2ms | Allocations: 8868)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:25:38 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.6ms | Allocations: 1035)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2599)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Hello World!</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:25:54 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.8ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1384)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Hello World!</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:27:13 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.7ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1383)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Hello World!</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:27:13 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2088)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Hello World!</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:27:14 +0300
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:27:14 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1383)
+
+
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1383)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Hello World!</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Hello World!</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:27:14 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 905)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1383)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Hello World!</p>
+    3:     <%= render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:27:28 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1080)
+Completed 200 OK in 21ms (Views: 17.2ms | ActiveRecord: 0.3ms | Allocations: 8881)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:27:29 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 1.5ms | Allocations: 1042)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2618)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Hello World!</p>
+    3:     <% render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:27:30 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.7ms | Allocations: 905)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1383)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    1: var insert = `
+    2:     <p>Hello World!</p>
+    3:     <% render :xml => @rec %>
+    4: `;
+    5: 
+    6: $('document').ready(function() {
+  
+app/views/admin/res.js.erb:3
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:28:26 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1080)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.2ms | Allocations: 8879)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:28:27 +0300
+Processing by AdminController#res as JS
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.4ms | Allocations: 140)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1734)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:28:58 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4147)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.6ms | Allocations: 11513)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:28:59 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.4ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:10:in `res'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 1.1ms | ActiveRecord: 0.4ms | Allocations: 3395)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:30:43 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:10:in `res'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 132)
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 3680)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:30:55 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:10:in `res'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 2307)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:32:09 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 5.2ms | Allocations: 4311)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.6ms | Allocations: 12470)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:32:10 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `res'
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.3ms | Allocations: 2712)
+
+
+  
+NoMethodError (undefined method `to_xml' for #<Calculation:0x00007effa2547330>
+Did you mean?  to_yaml):
+  
+app/controllers/admin_controller.rb:9:in `res'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:32:11 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `res'
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.3ms | Allocations: 2656)
+
+
+  
+NoMethodError (undefined method `to_xml' for #<Calculation:0x00007effa0a590c8>
+Did you mean?  to_yaml):
+  
+app/controllers/admin_controller.rb:9:in `res'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:32:12 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `res'
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.3ms | Allocations: 2656)
+
+
+  
+NoMethodError (undefined method `to_xml' for #<Calculation:0x00007effa0cfd9f0>
+Did you mean?  to_yaml):
+  
+app/controllers/admin_controller.rb:9:in `res'
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:32:12 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `res'
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms | Allocations: 2655)
+
+
+  
+NoMethodError (undefined method `to_xml' for #<Calculation:0x00007effa1070038>
+Did you mean?  to_yaml):
+  
+app/controllers/admin_controller.rb:9:in `res'
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:32:25 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 5.1ms | Allocations: 4098)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.7ms | Allocations: 11458)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:32:26 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `res'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 2373)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:37:14 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 4.9ms | Allocations: 4065)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.6ms | Allocations: 11402)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:37:15 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.2ms | Allocations: 45)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 1248)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:42:23 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 18.3ms | Allocations: 4096)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.7ms | Allocations: 11437)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:42:24 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.2ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 3731)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:47:02 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 5.2ms | Allocations: 4316)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.6ms | Allocations: 12489)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-28 23:47:03 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 336)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 7715)
+
+
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:07 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2187)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:08 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 2183)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:09 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2183)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:09 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2183)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:09 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2183)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/" for 127.0.0.1 at 2019-11-28 23:47:41 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 336)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 8130)
+
+
+Started GET "/main/result?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:44 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2189)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/main/result?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:45 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2189)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/main/result?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:45 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2189)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/main/result?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:45 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2189)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/" for 127.0.0.1 at 2019-11-28 23:47:54 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 336)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 8133)
+
+
+Started GET "/main/result?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:55 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2186)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/main/result?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:47:56 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2186)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/" for 127.0.0.1 at 2019-11-28 23:47:59 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 157)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 6960)
+
+
+Started GET "/main/result?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:48:00 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2182)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/main/result?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:48:00 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2182)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/main/result?n=sad&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-11-28 23:48:02 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"sad", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 2182)
+
+
+  
+NameError (uninitialized constant MainController::FriendNumbers):
+  
+app/controllers/main_controller.rb:8:in `result'
+Started GET "/" for 127.0.0.1 at 2019-11-28 23:48:08 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 156)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6954)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:48:15 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1099)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.2ms | Allocations: 8490)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:48:16 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 138)
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 4921)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:49:50 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1079)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms | Allocations: 8882)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:49:51 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.5ms | Allocations: 132)
+Completed 200 OK in 11ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 4896)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:49:51 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 3733)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:49:52 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 3733)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:49:53 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 3731)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-11-28 23:50:16 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 5.4ms | Allocations: 4344)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.6ms | Allocations: 12514)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:50:17 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.4ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.6ms | Allocations: 131)
+Completed 200 OK in 14ms (Views: 4.7ms | ActiveRecord: 0.4ms | Allocations: 4919)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:50:18 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 3727)
+
+
+Started GET "/admin/res" for 127.0.0.1 at 2019-11-28 23:50:19 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.2ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 3733)
+
+
+Started GET "/admin/handling" for ::1 at 2019-11-29 00:05:53 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 6.0ms | Allocations: 4568)
+Completed 200 OK in 816ms (Views: 809.2ms | ActiveRecord: 0.7ms | Allocations: 1291851)
+
+
+Started GET "/" for ::1 at 2019-11-29 00:05:56 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 367)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 7759)
+
+
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-11-29 00:05:59 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_res'
+  Rendering main/result.js.erb
+  Rendered main/result.js.erb (Duration: 0.6ms | Allocations: 230)
+Completed 200 OK in 11ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 4199)
+
+
+Started GET "/admin/handling" for ::1 at 2019-11-29 00:08:49 +0300
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.9ms | Allocations: 830)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.2ms | Allocations: 7639)
+
+
+Started GET "/admin/res" for ::1 at 2019-11-29 00:26:04 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.3ms | Allocations: 141)
+Completed 200 OK in 10ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 8854)
+
+
+Started GET "/admin/res" for ::1 at 2019-11-29 00:26:08 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/controllers/admin_controller.rb:9:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 3725)
+
+
+Started GET "/admin/handling" for ::1 at 2019-11-29 00:34:08 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 4.9ms | Allocations: 3744)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.2ms | Allocations: 11095)
+
+
+Started GET "/admin/res" for ::1 at 2019-11-29 00:34:09 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/interactors/convert_object.rb:8:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 1404)
+
+
+Started GET "/admin/res" for ::1 at 2019-11-29 00:34:10 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/interactors/convert_object.rb:8:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 1244)
+
+
+Started GET "/admin/handling" for ::1 at 2019-11-29 00:37:53 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 6.1ms | Allocations: 4065)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.9ms | Allocations: 11399)
+
+
+Started GET "/admin/res" for ::1 at 2019-11-29 00:37:54 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.4ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/interactors/convert_object.rb:8:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 1.1ms | ActiveRecord: 0.4ms | Allocations: 3858)
+
+
+Started GET "/admin/res" for ::1 at 2019-11-29 00:38:03 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/interactors/convert_object.rb:8:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 3769)
+
+
+Started GET "/admin/res" for ::1 at 2019-11-29 00:38:03 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/interactors/convert_object.rb:8:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 6)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 3790)
+
+
+Started GET "/admin/handling" for ::1 at 2019-11-29 00:52:04 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AdminController#handling as HTML
+  Rendering admin/handling.html.erb within layouts/application
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/views/admin/handling.html.erb:12
+  Rendered admin/handling.html.erb within layouts/application (Duration: 1.4ms | Allocations: 843)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.2ms | Allocations: 7643)
+
+
+Started GET "/admin/res" for ::1 at 2019-11-29 00:52:05 +0300
+Processing by AdminController#res as JS
+  [1m[36mCalculation Load (0.3ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/interactors/convert_object.rb:8:in `map'
+  Rendering admin/res.js.erb
+  Rendered admin/res.js.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 1.1ms | ActiveRecord: 0.3ms | Allocations: 3799)
+
+
