@@ -1,5 +1,6 @@
 require 'json'
 
+# Model contains each calculation sended by user
 class Calculation < ApplicationRecord
   validates :input, uniqueness: true
 

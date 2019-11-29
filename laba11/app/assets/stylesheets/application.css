@@ -14,15 +14,6 @@
  *= require_self
  */
 
-
-/*
-@font-face {
-    font-family: 'Montserrat';
-    src: asset_url('fonts/Montserrat-Bold.ttf')
-    src: url('/assets/fonts/Montserrat-Bold.ttf') format('truetype')
-}
-*/
-
 * {
     padding: 0;
     margin: 0;

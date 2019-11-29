@@ -1,0 +1,28 @@
+<div class="container admin-body">
+    <div class="row admin-page-row">
+        <div class="col">
+            <h1>Администрирование</h1>
+        </div>
+    </div>
+    <div class="row admin-page-row">
+        <div class="col-6">
+            <table class="result-table">
+                <th colspan="2">База Данных</th>
+                <% unless @rec.nil? %>
+                    <% @rec.each do |record| %>
+                        <tr>
+                            <td><%= record.input %></td>
+                            <td><%= record.json_responce %></td>
+                        </tr>
+                    <% end %>
+                <% else %>
+                    <p>База Данных пуста</p>    
+                <% end %>
+            </table>
+        </div>
+        <div class="col-6">
+            <%= link_to 'Взять данные из БД', res_path, :class => 'button-def default-link', :remote => true %>
+            <div id="xml-data-output"></div>
+        </div>
+    </div>
+</div>

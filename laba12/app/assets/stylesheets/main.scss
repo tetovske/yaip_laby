@@ -1,0 +1,36 @@
+#output-list {
+    list-style: none;
+}
+
+.def-text {
+    text-align: center;
+}
+
+.result-table {
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.171);
+    border-radius: 15px;
+    border-collapse: collapse;
+    overflow: hidden;
+    margin-bottom: 25px;
+    width: 300px;
+}
+
+.result-table tr {
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.result-table tr:nth-of-type(odd) {
+    background-color: #ebebeb;
+}
+
+.result-table tr th {
+    background-color: #2EE59D;
+    padding: 15px 30px;
+    color: white;
+}
+
+.result-table tr td {
+    padding: 15px 30px;
+}

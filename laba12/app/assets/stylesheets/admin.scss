@@ -1,0 +1,36 @@
+.admin-body {
+    margin-top: 50px;
+}
+
+.admin-page-row {
+    margin-top: 50px;
+}
+
+.button-def {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.171);
+    background-color: white;
+    color: #313131;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .2s;
+    margin-right: 20px;
+    max-width: 300px;
+}
+
+.button-def:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-4px);
+    transition: .2s;
+}
+
+#xml-data-output {
+    margin-top: 40px;
+    padding: 20px 35px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}

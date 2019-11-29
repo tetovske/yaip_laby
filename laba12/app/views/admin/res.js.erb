@@ -1,0 +1,18 @@
+var insert = `
+    <div class="xml-responce">
+        <%= @rec %>
+    </div>
+`;
+
+$('document').ready(function() {
+    prepare();
+    main();
+});
+
+function prepare() {
+    $('#xml-data-output').empty();
+}
+
+function main() {
+    $('#xml-data-output').append(`${insert}`);
+}

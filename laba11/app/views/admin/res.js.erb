@@ -1,5 +1,7 @@
 var insert = `
-    <%= @rec %>
+    <p>
+        <%= @rec %>
+    </p>
 `;
 
 $('document').ready(function() {
@@ -8,7 +10,7 @@ $('document').ready(function() {
 });
 
 function prepare() {
-    $('.xml-data-output').empty();
+    $('#xml-data-output').empty();
 }
 
 function main() {
