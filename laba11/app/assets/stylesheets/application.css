@@ -70,6 +70,34 @@
     outline: 0;
 }
 
+.responce-card {
+    margin: 50px auto;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.171);
+    padding: 30px;
+    border-radius: 20px;
+    width: 450px;
+    animation: cardShow linear .3s;
+    transform: scale(1);
+    transition: .2s;
+    cursor: default;
+}
+
+.responce-card:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+@keyframes cardShow {
+    0% {
+        opacity: 0;
+        transform: translate(0px, 10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
 .button-def {
     padding: 15px 30px;
     border-radius: 20px;

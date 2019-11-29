@@ -8,7 +8,7 @@ RSpec.describe 'Calculation', type: :model do
       field = Calculation.new(input: 1500, json_responce: '{}')
       Calculation.find_by(input: 1500).destroy unless field.valid?
       field.save
-      expect(Calculation.where(input: 1500).exists?).to eq(true)
+      expect(Calculation.where(input: 1500).exists?).to be_truthy
     end
   end
 
@@ -16,7 +16,7 @@ RSpec.describe 'Calculation', type: :model do
     it 'should say that not valid input is not valid:))' do
       exs = Calculation.find_by(input: 300)
       Calculation.new(input: 300, json_responce: '{}').save if exs.nil?
-      expect(Calculation.new(input: 300).valid?).to eq(false)
+      expect(Calculation.new(input: 300).valid?).to be_falsy
       Calculation.find_by(input: 300).destroy
       unless exs.nil?
         Calculation.new(input: 300, json_responce: exs.json_responce).save

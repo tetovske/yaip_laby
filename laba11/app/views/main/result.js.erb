@@ -1,5 +1,5 @@
 var str = `
-    <li class="input-form">
+    <li class="responce-card">
         <% unless @res.empty? %>
             <% @res.each do |elem| %>
                 <p class="res-elem"><%= elem.first %> <%= elem.second %></p>
@@ -10,4 +10,4 @@ var str = `
     </li>
 `;
 
-document.querySelector('#output-list').innerHTML += str
+$('#output-list').append(str)
