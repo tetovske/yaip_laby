@@ -10772,3 +10772,5 @@ Processing by AdminController#res as JS
 Completed 200 OK in 336ms (Views: 25.6ms | ActiveRecord: 0.3ms | Allocations: 6334)
 
 
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from <main> at /home/tetovske/YAIP/laby/laba12/bin/rake:9)
