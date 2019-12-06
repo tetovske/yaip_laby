@@ -5,9 +5,9 @@
         </div>
     </div>
     <div class="row admin-page-row">
-        <div class="col-6">
+        <div class="col-8">
             <table class="result-table">
-                <th colspan="2">База Данных</th>
+                <th colspan="2">База данных запросов</th>
                 <% unless @rec.nil? %>
                     <% @rec.each do |record| %>
                         <tr>
@@ -16,12 +16,12 @@
                         </tr>
                     <% end %>
                 <% else %>
-                    <p>База Данных пуста</p>    
+                    <p>База данных пуста</p>    
                 <% end %>
             </table>
         </div>
-        <div class="col-6">
-            <%= link_to 'Взять данные из БД', res_path, :class => 'button-def default-link', :remote => true %>
+        <div class="col-4">
+            <%= link_to 'Взять данные из БД', res_path, :class => 'button-def', :remote => true %><br/>
             <div id="xml-data-output"></div>
         </div>
     </div>
