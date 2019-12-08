@@ -44,11 +44,14 @@ class Triangle < Shape
     super(args)
   end
 
+  # rubocop:disable Metrics/AbcSize
   def square
-    a = [@pts[0].x - @pts[2].x, @pts[0].y - @pts[2].y]
-    b = [@pts[1].x - @pts[2].x, @pts[1].y - @pts[2].y]
+    pnt = @pts
+    a = [pnt[0].x - pnt[2].x, pnt[0].y - pnt[2].y]
+    b = [pnt[1].x - pnt[2].x, pnt[1].y - pnt[2].y]
     0.5 * Matrix[a, b].determinant
   end
+  # rubocop:enable Metrics/AbcSize
 end
 
 # Prism class
@@ -62,9 +65,12 @@ class Prism < Triangle
     end
   end
 
+  # rubocop:disable Metrics/AbcSize
   def square
-    a = super * 2 + dis(@pts[0], @pts[1]) * dis(@pts[0], @pts[3])
-    a += dis(@pts[1], @pts[2]) * dis(@pts[1], @pts[4])
-    a + dis(@pts[2], @pts[0]) * dis(@pts[2], @pts[5])
+    pnt = @pts
+    a = super * 2 + dis(pnt[0], pnt[1]) * dis(pnt[0], pnt[3])
+    a += dis(pnt[1], pnt[2]) * dis(pnt[1], pnt[4])
+    a + dis(pnt[2], pnt[0]) * dis(pnt[2], pnt[5])
   end
+  # rubocop:enable Metrics/AbcSize
 end

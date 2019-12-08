@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
-require 'test/unit'
-require_relative
+require_relative 'array_helper'
 
 # class documentation
 class IOController
@@ -20,8 +19,8 @@ class IOController
     puts 'Элементы с нечетными индексами:'
     @arr.select.with_index { |num, id| puts "#{num}\n" if id.odd? }
     puts 'Элементы с четными индексами:'
-    @rr.select.with_index { |num, id| puts "#{num}\n" if id.even? }
+    @arr.select.with_index { |num, id| puts "#{num}\n" if id.even? }
   end
 end
 
-IOController.new.main
+IOController.new.start
