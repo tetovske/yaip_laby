@@ -3,6 +3,7 @@ function FindChild(e)
 {
     console.log(e.tagName);
     output.innerHTML += ' ' + e.tagName;
-    for (var i = e.firstElementChild; i != null; i = i.nextElementSibling)
+    for (var i = e.firstElementChild; i != null; i = i.nextElementSibling) {
         FindChild(i);
+    }
 }

@@ -45,7 +45,7 @@ function updateStore() {
         $(this).parent().find(".amount").text(shopItems[index].count.toString());
     });
     $('#item-table .rmv-but').click(function() {
-        shopItems.splice($(this).parent().index());
+        shopItems.splice($(this).parent().index(), 1);
         updateStore();
     });
     $('.table-elem').each(() => {
