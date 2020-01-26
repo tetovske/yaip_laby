@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# AdminController class
 class AdminController < ApplicationController
   def auth; end
 

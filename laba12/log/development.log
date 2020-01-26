@@ -11619,3 +11619,1645 @@ Completed 200 OK in 9ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 4259)
 
   [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/" for 127.0.0.1 at 2019-12-14 05:56:34 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms | Allocations: 356)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-14 05:56:34 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 8.8ms | Allocations: 574)
+Completed 200 OK in 1904ms (Views: 1902.7ms | ActiveRecord: 0.0ms | Allocations: 1287410)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-14 06:13:11 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 327)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-14 06:13:11 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 307)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 9903)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-14 06:13:42 +0300
+Processing by MainController#index as HTML
+Redirected to http://127.0.0.1:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-14 06:13:42 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.3ms | Allocations: 307)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 9823)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-14 06:17:00 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms | Allocations: 456)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-14 06:17:00 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 1.4ms | Allocations: 574)
+Completed 200 OK in 785ms (Views: 784.4ms | ActiveRecord: 0.0ms | Allocations: 1287486)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-14 06:17:11 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 308)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 9838)
+
+
+Started GET "/" for 192.168.1.67 at 2019-12-14 06:21:49 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MainController#index as HTML
+Redirected to http://192.168.1.65:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 221)
+
+
+Started GET "/session/signin" for 192.168.1.67 at 2019-12-14 06:21:49 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.3ms | Allocations: 307)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 9847)
+
+
+Started GET "/" for 192.168.1.67 at 2019-12-14 06:22:02 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MainController#index as HTML
+Redirected to http://192.168.1.65:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 325)
+
+
+Started GET "/session/signin" for 192.168.1.67 at 2019-12-14 06:22:02 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.3ms | Allocations: 306)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 9929)
+
+
+Started GET "/users/new" for 192.168.1.67 at 2019-12-14 06:22:05 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 85.0ms | Allocations: 2658)
+  Rendered users/new.html.erb within layouts/application (Duration: 92.4ms | Allocations: 3022)
+Completed 200 OK in 105ms (Views: 100.1ms | ActiveRecord: 0.6ms | Allocations: 16809)
+
+
+Started POST "/users" for 192.168.1.67 at 2019-12-14 06:22:51 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"A5Zv+Exf/wGPYPvSY5k9a9GBPy2TMndpTI5GjJuDI/myoJ1SoqR5t+yehHV1Hjbn8iXJ2Nzt++5XjFfIRZWzvg==", "user"=>{"login"=>"Tet", "pass"=>"123", "pass_d"=>"123"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:18:in `create_user'
+  [1m[36mUser Exists? (19.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "Tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:18:in `create_user'
+  [1m[36mUser Create (17.4ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "Tet"], ["password_digest", "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"], ["created_at", "2019-12-14 03:22:51.341187"], ["updated_at", "2019-12-14 03:22:51.341187"]]
+  ↳ app/models/user.rb:18:in `create_user'
+  [1m[35m (91.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:18:in `create_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:32:in `block in create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "Tet"], ["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:32:in `block in create'
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:32:in `block in create'
+Redirected to http://192.168.1.65:3000/users/16
+Completed 302 Found in 150ms (ActiveRecord: 128.3ms | Allocations: 7508)
+
+
+Started GET "/users/16" for 192.168.1.67 at 2019-12-14 06:22:51 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"16"}
+Redirected to http://192.168.1.65:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms | Allocations: 332)
+
+
+Started GET "/session/signin" for 192.168.1.67 at 2019-12-14 06:22:51 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.5ms | Allocations: 316)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 9965)
+
+
+Started GET "/session/auth?login=Tet&pass=123&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 192.168.1.67 at 2019-12-14 06:23:00 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"Tet", "pass"=>"123", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "Tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:9:in `authenticate'
+Redirected to http://192.168.1.65:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 992)
+
+
+Started GET "/" for 192.168.1.67 at 2019-12-14 06:23:00 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 347)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.1ms | Allocations: 11204)
+
+
+Started GET "/main/result?n=560&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 192.168.1.67 at 2019-12-14 06:23:14 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MainController#result as JS
+  Parameters: {"n"=>"560", "commit"=>"Найти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7:in `current_user'
+  [1m[36mCalculation Load (0.4ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 560], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:9:in `find_res'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 560], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `insert_res'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 560], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `insert_res'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:14:in `insert_res'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 560], ["json_responce", "[[220,284]]"], ["created_at", "2019-12-14 03:23:20.206986"], ["updated_at", "2019-12-14 03:23:20.206986"]]
+  ↳ app/models/calculation.rb:14:in `insert_res'
+  [1m[35m (83.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:14:in `insert_res'
+  Rendering main/result.js.erb
+  Rendered main/result.js.erb (Duration: 17.3ms | Allocations: 385)
+Completed 200 OK in 6215ms (Views: 18.6ms | ActiveRecord: 84.6ms | Allocations: 1892759)
+
+
+Started GET "/main/result?n=560&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 192.168.1.67 at 2019-12-14 06:23:25 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MainController#result as JS
+  Parameters: {"n"=>"560", "commit"=>"Найти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7:in `current_user'
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 560], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:9:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 560], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:9:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 560], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:9:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 560], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:9:in `find_res'
+  Rendering main/result.js.erb
+  Rendered main/result.js.erb (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 2978)
+
+
+Started GET "/main/result?n=100&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 192.168.1.67 at 2019-12-14 06:23:39 +0300
+Cannot render console from 192.168.1.67! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by MainController#result as JS
+  Parameters: {"n"=>"100", "commit"=>"Найти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7:in `current_user'
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 100], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:9:in `find_res'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 100], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `insert_res'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 100], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `insert_res'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:14:in `insert_res'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 100], ["json_responce", "[]"], ["created_at", "2019-12-14 03:23:39.757272"], ["updated_at", "2019-12-14 03:23:39.757272"]]
+  ↳ app/models/calculation.rb:14:in `insert_res'
+  [1m[35m (77.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:14:in `insert_res'
+  Rendering main/result.js.erb
+  Rendered main/result.js.erb (Duration: 0.5ms | Allocations: 4)
+Completed 200 OK in 141ms (Views: 1.0ms | ActiveRecord: 78.2ms | Allocations: 66295)
+
+
+Started GET "/admin/handling" for 127.0.0.1 at 2019-12-15 21:33:52 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#handling as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 451)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-15 21:33:52 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 30.4ms | Allocations: 574)
+Completed 200 OK in 2016ms (Views: 1976.1ms | ActiveRecord: 0.0ms | Allocations: 1287489)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-15 22:56:30 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 316)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 10094)
+
+
+Started GET "/session/auth?login=tet&pass=1234&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 22:56:35 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"1234", "commit"=>"Войти"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1190)
+
+
+  
+SyntaxError (/home/tetovske/YAIP/laby/laba12/app/models/user.rb:18: syntax error, unexpected ')', expecting ']'
+...t::SHA256.hexdigest(data[:pass)
+...                              ^):
+  
+app/models/user.rb:18: syntax error, unexpected ')', expecting ']'
+app/models/user.rb:18: syntax error, unexpected ')', expecting ']'
+app/models/user.rb:18: syntax error, unexpected ')', expecting ']'
+app/controllers/session_controller.rb:8:in `authorize_user'
+Started GET "/session/auth?login=tet&pass=1234&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 22:56:46 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"1234", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:11:in `authenticate'
+Redirected to http://localhost:3000/session/signin
+Completed 302 Found in 28ms (ActiveRecord: 0.4ms | Allocations: 2294)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-15 22:56:46 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 314)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 10067)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-15 22:56:50 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 85.1ms | Allocations: 2658)
+  Rendered users/new.html.erb within layouts/application (Duration: 135.8ms | Allocations: 3014)
+Completed 200 OK in 148ms (Views: 143.8ms | ActiveRecord: 0.4ms | Allocations: 16298)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-15 22:56:55 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"Jrc0i+zWcvq4GVmpk+4XbPtAmbt64vZ1erHn4zZKYnAA7MsRpY2WFO5nQoaX2W7H+4D5lMZ3dwfZ5pNryO6tYQ==", "user"=>{"login"=>"tet", "pass"=>"123", "pass_d"=>"123"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "tet"], ["password_digest", "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"], ["created_at", "2019-12-15 19:56:55.127794"], ["updated_at", "2019-12-15 19:56:55.127794"]]
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[35m (108.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "tet"], ["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+Redirected to http://localhost:3000/users/17
+Completed 302 Found in 118ms (ActiveRecord: 109.4ms | Allocations: 7281)
+
+
+Started GET "/users/17" for 127.0.0.1 at 2019-12-15 22:56:55 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"17"}
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 325)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-15 22:56:55 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 315)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 9918)
+
+
+Started GET "/session/auth?login=tet&pass=123&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 22:56:59 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"123", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:11:in `authenticate'
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 841)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-15 22:56:59 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 55.0ms | Allocations: 342)
+Completed 200 OK in 65ms (Views: 63.2ms | ActiveRecord: 0.2ms | Allocations: 11172)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-15 22:57:06 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 39.8ms | Allocations: 1430)
+Completed 200 OK in 61ms (Views: 58.9ms | ActiveRecord: 0.3ms | Allocations: 11724)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-15 23:48:18 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1415)
+Completed 200 OK in 20ms (Views: 12.4ms | ActiveRecord: 0.4ms | Allocations: 12641)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-15 23:49:11 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1368)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.2ms | Allocations: 12562)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-15 23:49:24 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 332)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.5ms | Allocations: 11023)
+
+
+Started GET "/main/result?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 23:49:27 +0300
+Processing by MainController#result as JS
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:11:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:11:in `find_res'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `find_res'
+  Rendering main/result.js.erb
+  Rendered main/result.js.erb (Duration: 60.6ms | Allocations: 230)
+Completed 200 OK in 91ms (Views: 62.1ms | ActiveRecord: 0.7ms | Allocations: 10682)
+
+
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-15 23:49:29 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+Redirected to http://localhost:3000/session/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 820)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-15 23:49:29 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 511)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms | Allocations: 10701)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-15 23:51:41 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 545)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 11231)
+
+
+Started GET "/session/auth?login=tet&pass=123&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 23:51:57 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"123", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:11:in `authenticate'
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms | Allocations: 833)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-15 23:51:57 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 332)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 11028)
+
+
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-15 23:52:53 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+Redirected to http://localhost:3000/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 822)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-15 23:52:53 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 553)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 11231)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-15 23:52:54 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 318)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 9908)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-15 23:53:06 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 569)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 11237)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-15 23:53:21 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 579)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 11252)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:11:19 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 580)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 11239)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:11:26 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.9ms | Allocations: 584)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 11265)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:15:01 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 580)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 11252)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:15:02 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.3ms | Allocations: 338)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 9925)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:24:46 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 579)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 11249)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:24:56 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 575)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 11246)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:25:09 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.9ms | Allocations: 577)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 11246)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:25:25 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 575)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 11245)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:28:33 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 580)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 11257)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:28:44 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 579)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 11247)
+
+
+Started GET "/session/auth?login=tet&pass=123&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-16 00:29:07 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"123", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:11:in `authenticate'
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms | Allocations: 828)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:29:07 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 332)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.2ms | Allocations: 11025)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:29:52 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 156)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.1ms | Allocations: 14921)
+
+
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:30:01 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+Redirected to http://localhost:3000/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 822)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:30:01 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 343)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 9884)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:30:09 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 579)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 11153)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:30:18 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 1404)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1750)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 11836)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:32:52 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.1ms | Allocations: 1460)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1805)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 12403)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:33:54 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 1469)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1820)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 12419)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:34:20 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 1425)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1750)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2938)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="input-form">
+  <%= form_with(model: user, local: true) do |form| %>
+    <% if user.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+        <ul>
+          <% user.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="field">
+      <%= form.label 'Логин' %>
+      <%= form.text_field :login, class: 'input-field' %>
+    </div>
+
+    <div class="field">
+      <%= form.label 'Пароль' %>
+      <%= form.password_field :pass, class: 'input-field' %>
+    </div>
+
+    <div class="field">
+      <%= form.label 'Пароль еще раз' %>
+      <%= form.password_field :pass_d, class: 'input-field' %>
+    </div>
+
+    <div class="actions">
+      <%= form.submit, class: 'button-def' %>
+    </div>
+  <% end %>
+</div>
+
+):
+1:    <div class="input-form">
+2:      <%= form_with(model: user, local: true) do |form| %>
+3:        <% if user.errors.any? %>
+4:          <div id="error_explanation">
+5:            <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+6:            <ul>
+7:              <% user.errors.full_messages.each do |message| %>
+8:                <li><%= message %></li>
+9:              <% end %>
+10:            </ul>
+11:          </div>
+12:        <% end %>
+13:    
+14:        <div class="field">
+15:          <%= form.label 'Логин' %>
+16:          <%= form.text_field :login, class: 'input-field' %>
+17:        </div>
+18:    
+19:        <div class="field">
+20:          <%= form.label 'Пароль' %>
+21:          <%= form.password_field :pass, class: 'input-field' %>
+22:        </div>
+23:    
+24:        <div class="field">
+25:          <%= form.label 'Пароль еще раз' %>
+26:          <%= form.password_field :pass_d, class: 'input-field' %>
+27:        </div>
+28:    
+29:        <div class="actions">
+30:          <%= form.submit, class: 'button-def' %>
+31:        </div>
+32:      <% end %>
+33:    </div>
+  
+app/views/users/_form.html.erb:30: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:30: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:30: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:30: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:30: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:30: syntax error, unexpected tLABEL, expecting '='
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:34:50 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 1426)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1752)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2945)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="input-form">
+  <%= form_with(model: user, local: true) do |form| %>
+    <% if user.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+        <ul>
+          <% user.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="field">
+      <%= form.label 'Логин' %>
+      <%= form.text_field :login, class: 'input-field' %>
+    </div>
+
+    <div class="field">
+      <%= form.label 'Пароль' %>
+      <%= form.password_field :pass, class: 'input-field' %>
+    </div>
+
+    <div class="field">
+      <%= form.label 'Пароль еще раз' %>
+      <%= form.password_field :pass_d, class: 'input-field' %>
+    </div>
+
+    <div class="actions">
+      <%= form.submit, 'Зарегистрироваться', class: 'button-def' %>
+    </div>
+  <% end %>
+</div>
+
+):
+1:    <div class="input-form">
+2:      <%= form_with(model: user, local: true) do |form| %>
+3:        <% if user.errors.any? %>
+4:          <div id="error_explanation">
+5:            <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+6:            <ul>
+7:              <% user.errors.full_messages.each do |message| %>
+8:                <li><%= message %></li>
+9:              <% end %>
+10:            </ul>
+11:          </div>
+12:        <% end %>
+13:    
+14:        <div class="field">
+15:          <%= form.label 'Логин' %>
+16:          <%= form.text_field :login, class: 'input-field' %>
+17:        </div>
+18:    
+19:        <div class="field">
+20:          <%= form.label 'Пароль' %>
+21:          <%= form.password_field :pass, class: 'input-field' %>
+22:        </div>
+23:    
+24:        <div class="field">
+25:          <%= form.label 'Пароль еще раз' %>
+26:          <%= form.password_field :pass_d, class: 'input-field' %>
+27:        </div>
+28:    
+29:        <div class="actions">
+30:          <%= form.submit, 'Зарегистрироваться', class: 'button-def' %>
+31:        </div>
+32:      <% end %>
+33:    </div>
+  
+app/views/users/_form.html.erb:30: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/users/_form.html.erb:30: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/users/_form.html.erb:30: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/users/_form.html.erb:30: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/users/_form.html.erb:30: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/users/_form.html.erb:30: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+app/views/users/new.html.erb:3
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:35:12 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.1ms | Allocations: 1436)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1782)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 12388)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:35:33 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.0ms | Allocations: 1320)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1665)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 12255)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:35:57 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 1316)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1661)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 12248)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:36:01 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 1316)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1661)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 12247)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:36:16 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 916)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1002)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 10516)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-16 00:36:17 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"7VDo+Az2+7OZjPrRfbi6yOgTg8M/i1qgn/cALOuSNijLCxdiRa0fXc/y4f55j8Nj6NPj7IMe29I8oHSkFTb5OQ==", "user"=>{"login"=>"", "pass"=>"", "pass_d"=>""}, "commit"=>"Зарегистрироваться"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", ""], ["LIMIT", 1]]
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", ""], ["password_digest", "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"], ["created_at", "2019-12-15 21:36:17.299426"], ["updated_at", "2019-12-15 21:36:17.299426"]]
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[35m (127.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", ""], ["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+Redirected to http://localhost:3000/users/18
+Completed 302 Found in 138ms (ActiveRecord: 128.0ms | Allocations: 6917)
+
+
+Started GET "/users/18" for 127.0.0.1 at 2019-12-16 00:36:17 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"18"}
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 323)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:36:17 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 582)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 10667)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:36:20 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 921)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1008)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 10537)
+
+
+Started GET "/session/auth?login=tet&pass=123&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-16 00:36:38 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"123", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:11:in `authenticate'
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms | Allocations: 849)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:36:38 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 332)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.2ms | Allocations: 10944)
+
+
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:36:40 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+Redirected to http://localhost:3000/session/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 823)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:36:40 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 343)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 9858)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:36:42 +0300
+Processing by MainController#index as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 333)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:36:42 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.3ms | Allocations: 337)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 9858)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:36:43 +0300
+Processing by MainController#index as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 328)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:36:43 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.3ms | Allocations: 337)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 9858)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:36:44 +0300
+Processing by MainController#index as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 352)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:36:44 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 337)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 9856)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:36:44 +0300
+Processing by MainController#index as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 326)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:36:44 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 337)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 9856)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:37:18 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.9ms | Allocations: 579)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 11168)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:37:20 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.0ms | Allocations: 1355)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1700)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 11802)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:37:42 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 1317)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1618)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 12232)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:37:48 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 916)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 980)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 10492)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:37:51 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 579)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 10671)
+
+
+Started GET "/session/auth?login=tet&pass=123&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-16 00:37:55 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"123", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:11:in `authenticate'
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 828)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:37:55 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 332)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.1ms | Allocations: 10933)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:38:00 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1504)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.3ms | Allocations: 11675)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:38:07 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.4ms | Allocations: 916)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 980)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 10502)
+
+
+Started DELETE "/users/15" for 127.0.0.1 at 2019-12-16 00:38:16 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nnGLJjaY/dO8D2KGR7glCQ9T3rV9nYyoT8nuxURr0lhnfGS/KINyfFBEGTAK0SyL+Fl4wRwO+CdHO++Y3vFyGw==", "id"=>"15"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 15]]
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+  [1m[35m (119.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 125ms (ActiveRecord: 119.5ms | Allocations: 4262)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:38:16 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1113)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.2ms | Allocations: 11146)
+
+
+Started DELETE "/users/16" for 127.0.0.1 at 2019-12-16 00:38:18 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"jy9yzunASWNYplrXqbiR4t6UuWwCE7ZnRkitIAr9E8l2Ip1X99vGzLTtIWHk0ZhgKZ4fGGOAwuhOuqx9kGezig==", "id"=>"16"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 16]]
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+  [1m[35m (108.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 113ms (ActiveRecord: 108.4ms | Allocations: 4063)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:38:18 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 988)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.2ms | Allocations: 11025)
+
+
+Started DELETE "/users/18" for 127.0.0.1 at 2019-12-16 00:38:21 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AKFC+R+Z0M48IQlm2pURjvsnheEvJDLk1Jj+LiS24hn5rK1gAYJfYdBqctCX/BgMDC0jlU63Rmvcav9zvixCWg==", "id"=>"18"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 18]]
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+  [1m[35m (111.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 117ms (ActiveRecord: 112.3ms | Allocations: 4152)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:38:21 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 864)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.2ms | Allocations: 10899)
+
+
+Started DELETE "/users/17" for 127.0.0.1 at 2019-12-16 00:38:23 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kYRILUaTJUzmveEolAXOx+E4QlIAXwJr0JrEuRy6CuZoiae0WIiq4wr2mp7ZbMdFFjLkJmHMduTYaMXkhiCqpQ==", "id"=>"17"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 17]]
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+  [1m[35m (117.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 123ms (ActiveRecord: 118.2ms | Allocations: 4068)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:38:23 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 822)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:38:23 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 343)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 9868)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:38:32 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.4ms | Allocations: 913)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 977)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 10504)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-16 00:38:37 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"8YwKc6UUEnMWjAW/JZIvBUsTvFYGi45CquIpNpFR33LX1/Xp7E/2nUDyHpAhpVauS9PceboeDzAJtV2+b/UQYw==", "user"=>{"login"=>"tet", "pass"=>"123", "pass_d"=>"123"}, "commit"=>"Зарегистрироваться"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "tet"], ["password_digest", "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"], ["created_at", "2019-12-15 21:38:37.472028"], ["updated_at", "2019-12-15 21:38:37.472028"]]
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[35m (222.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "tet"], ["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+Redirected to http://localhost:3000/users/19
+Completed 302 Found in 232ms (ActiveRecord: 223.4ms | Allocations: 6937)
+
+
+Started GET "/users/19" for 127.0.0.1 at 2019-12-16 00:38:37 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 822)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 00:38:37 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 337)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 9850)
+
+
+Started GET "/session/auth?login=tet&pass=123&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-16 00:38:41 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"123", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:11:in `authenticate'
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 830)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:38:41 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 161)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.1ms | Allocations: 10188)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:38:46 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 864)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 10897)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:39:03 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1117)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.2ms | Allocations: 12221)
+
+
+Started GET "/users/14/edit" for 127.0.0.1 at 2019-12-16 00:39:35 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.2ms | Allocations: 1358)
+  Rendered users/edit.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1756)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.2ms | Allocations: 12416)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:40:04 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 1316)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1611)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 12206)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:40:06 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 916)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 980)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 10494)
+
+
+Started GET "/session/auth?login=tet&pass=123&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-16 00:40:11 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"123", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:11:in `authenticate'
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 815)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:40:11 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 332)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.1ms | Allocations: 10930)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:40:15 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1114)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms | Allocations: 11275)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:41:40 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1120)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.2ms | Allocations: 12233)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:59:30 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 945)
+Completed 200 OK in 14ms (Views: 8.3ms | ActiveRecord: 0.3ms | Allocations: 14620)
+
+
+Started GET "/users/14" for 127.0.0.1 at 2019-12-16 00:59:31 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 256)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.2ms | Allocations: 11009)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:59:36 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 1322)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1618)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 11281)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-16 00:59:45 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"CDf8QUBkcO3Fpam3QMTHD1GcDKfHk55i8iWPig3ngtsubAPbCT+UA5PbsphE876kUVxsiHsGHxBRcvsC80NNyg==", "user"=>{"login"=>"test", "pass"=>"1234", "pass_d"=>"1234"}, "commit"=>"Зарегистрироваться"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.4ms | Allocations: 1067)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1131)
+Completed 200 OK in 17ms (Views: 10.1ms | ActiveRecord: 0.4ms | Allocations: 16708)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 00:59:50 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 913)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 977)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 10490)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 00:59:53 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 334)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.1ms | Allocations: 10982)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 00:59:58 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 872)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.2ms | Allocations: 10899)
+
+
+Started DELETE "/users/14" for 127.0.0.1 at 2019-12-16 01:00:01 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Qwj7u8CfeVf+tUXTqZuliSWjdgS7X7JfrqF5AD3H/Ae6BRQi3oT2+BL+PmXk8qwL0qnQcNrMxtCmU3hdp11cRA==", "id"=>"14"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 14]]
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+  [1m[35m (149.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:56:in `destroy'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 155ms (ActiveRecord: 150.1ms | Allocations: 4148)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 01:00:01 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 740)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 10773)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 01:00:03 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.5ms | Allocations: 916)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 980)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 10492)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-12-16 01:00:10 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"T+qQHn9YbbbfB0HZbQSnj/u+CUMaY9rWIpSGuo2+v5ZpsW+ENgOJWIl5WvZpM94k+35pbKb2W6SBw/Iycxpwhw==", "user"=>{"login"=>"test", "pass"=>"1234", "pass_d"=>"1234"}, "commit"=>"Зарегистрироваться"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"], ["created_at", "2019-12-15 22:00:10.097564"], ["updated_at", "2019-12-15 22:00:10.097564"]]
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[35m (191.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/user.rb:22:in `create_user'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:31:in `block in create'
+Redirected to http://localhost:3000/users/20
+Completed 302 Found in 200ms (ActiveRecord: 192.3ms | Allocations: 6868)
+
+
+Started GET "/users/20" for 127.0.0.1 at 2019-12-16 01:00:10 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.2ms | Allocations: 10608)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 01:00:13 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 156)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 10182)
+
+
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 01:00:15 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+Redirected to http://localhost:3000/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 834)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 01:00:15 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 10679)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2019-12-16 01:05:56 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.7ms | Allocations: 984)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1048)
+Completed 200 OK in 27ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 14079)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 01:06:03 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 345)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 10060)
+
+
+Started GET "/session/auth?login=tet&pass=1234&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-16 01:06:07 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"1234", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:11:in `authenticate'
+Redirected to http://localhost:3000/session/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms | Allocations: 980)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 01:06:07 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 337)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 9844)
+
+
+Started GET "/session/auth?login=tet&pass=123&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-16 01:06:10 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"tet", "pass"=>"123", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:11:in `authenticate'
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 828)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-16 01:06:10 +0300
+Processing by MainController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 163)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 10459)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 01:06:13 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 886)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.2ms | Allocations: 10918)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-12-16 01:06:29 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:12
+  Rendered users/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1091)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.2ms | Allocations: 12200)
+
+
+Started GET "/users/19/edit" for 127.0.0.1 at 2019-12-16 01:06:39 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.0ms | Allocations: 1357)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1655)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.2ms | Allocations: 12427)
+
+
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 01:06:46 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9:in `current_user'
+Redirected to http://localhost:3000/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 818)
+
+
+Started GET "/session/signin" for 127.0.0.1 at 2019-12-16 01:06:46 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.8ms | Allocations: 579)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 10672)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/" for ::1 at 2019-12-16 01:33:24 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 220)
+
+
+Started GET "/session/signin" for ::1 at 2019-12-16 01:33:24 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.3ms | Allocations: 337)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 9752)
+
+
+Started GET "/" for ::1 at 2019-12-16 01:33:24 +0300
+Processing by MainController#index as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 219)
+
+
+Started GET "/session/signin" for ::1 at 2019-12-16 01:33:24 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.4ms | Allocations: 337)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 9747)
+
+
+Started GET "/" for ::1 at 2019-12-16 01:33:25 +0300
+Processing by MainController#index as HTML
+Redirected to http://localhost:3000/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 219)
+
+
+Started GET "/session/signin" for ::1 at 2019-12-16 01:33:25 +0300
+Processing by SessionController#auth as HTML
+  Rendering session/auth.html.erb within layouts/application
+  Rendered session/auth.html.erb within layouts/application (Duration: 0.3ms | Allocations: 337)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 9743)
+
+

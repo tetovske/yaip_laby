@@ -1,4 +1,6 @@
-require 'test_helper'
+# frozen_string_literal: true
+
+require './test/test_helper'
 require 'selenium-webdriver'
 
 class SeleniumTest < ActionDispatch::IntegrationTest
@@ -16,22 +18,21 @@ class SeleniumTest < ActionDispatch::IntegrationTest
   end
 
   test 'result with n = 300' do
-    # waiting = Selenium::WebDriver::Wait.new(:timeout => 10)
-    # waiting.until { !@driver.find_elements(:class, 'res-elem').empty? }
-    sleep 3
-    @driver.find_element(:id, 'n').send_keys '300'
-    sleep 1
-    @driver.find_element(:id, 'submit-button').click
-    sleep 5
-    assert @driver.find_elements(:class, 'res-elem').first.text == '220 284'
+    driver = @driver
+    driver.find_element(:id, 'n').send_keys '300'
+    driver.find_element(:id, 'submit-button').click
+    waiting = Selenium::WebDriver::Wait.new(timeout: 10)
+    waiting.until { !driver.find_elements(:class, 'res-elem').empty? }
+    assert driver.find_elements(:class, 'res-elem').first.text == '220 284'
   end
 
   test 'result with n = 10' do
-    sleep 3
-    @driver.find_element(:id, 'n').send_keys '10'
-    sleep 1
-    @driver.find_element(:id, 'submit-button').click
-    sleep 5
-    assert @driver.find_elements(:class, 'res-elem').first.text == 'В заданном диапазоне нет дружественных чисел!'
+    driver = @driver
+    driver.find_element(:id, 'n').send_keys '10'
+    driver.find_element(:id, 'submit-button').click
+    waiting = Selenium::WebDriver::Wait.new(timeout: 10)
+    waiting.until { !driver.find_elements(:class, 'res-elem').empty? }
+    assert driver.find_elements(:class, 'res-elem').first
+                 .text == 'В заданном диапазоне нет дружественных чисел!'
   end
 end

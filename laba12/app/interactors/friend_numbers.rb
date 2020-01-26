@@ -8,6 +8,7 @@ class FriendNumbers
 
   private
 
+  # rubocop:disable Metrics/AbcSize
   def find_in_db
     if Calculation.find_res(context.input).nil?
       context.res = calc(context.input)
@@ -16,14 +17,14 @@ class FriendNumbers
       context.res = Calculation.find_res(context.input)
     end
   end
+  # rubocop:enable Metrics/AbcSize
 
-  def calc(range)
+  def calc(_range)
     arr = []
-    range.to_i.times do |i|
-      range.to_i.times do |j|
-        a = find_dev(i).reduce { |x, y| x + y } == j
-        b = find_dev(j).reduce { |x, y| x + y } == i
-        arr << [i, j] if a && b && !arr.include?([j, i]) && i != j
+    par = params[:n].to_i
+    par.times do |i|
+      par.times do |j|
+        arr << [i, j] if compare_nums(i, j) && !arr.include?([j, i]) && i != j
       end
     end
     arr

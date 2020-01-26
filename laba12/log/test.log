@@ -2553,3 +2553,1582 @@ Redirected to http://test.host/session/signin
 Filter chain halted as :authorize rendered or redirected
 Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 127)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (49.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (15.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (32.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (86.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (541.2ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (542.4ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (541.2ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTruncate Tables (510.1ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:46:39.466071', '2019-12-15 21:46:39.466071');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:46:39.466071', '2019-12-15 21:46:39.466071');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:46:39.467644', '2019-12-15 21:46:39.467644');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:46:39.467644', '2019-12-15 21:46:39.467644')[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:46:39.466071', '2019-12-15 21:46:39.466071');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:46:39.466071', '2019-12-15 21:46:39.466071');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:46:39.467637', '2019-12-15 21:46:39.467637');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:46:39.467637', '2019-12-15 21:46:39.467637')[0m
+  [1m[35m (163.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+----------------------------------------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 21:46:39.651651"], ["updated_at", "2019-12-15 21:46:39.651651"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (184.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------
+SessionControllerTest: test_cant_go_anywhere_without_login
+----------------------------------------------------------
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:46:39 +0300
+Processing by SessionController#sign_out as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 342)
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:46:39 +0300
+Processing by SessionController#sign_out as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 342)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 00:46:39 +0300
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 00:46:39 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 00:46:39 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (409.6ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (408.6ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:50:53.255271', '2019-12-15 21:50:53.255271');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:50:53.255271', '2019-12-15 21:50:53.255271');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:50:53.256777', '2019-12-15 21:50:53.256777');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:50:53.256777', '2019-12-15 21:50:53.256777')[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:50:53.255271', '2019-12-15 21:50:53.255271');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:50:53.255271', '2019-12-15 21:50:53.255271');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:50:53.256779', '2019-12-15 21:50:53.256779');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:50:53.256779', '2019-12-15 21:50:53.256779')[0m
+  [1m[36mTruncate Tables (500.0ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (498.6ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (185.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (186.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+----------------------------------------------------------------
+----------------------------------------------------------
+SessionControllerTest: test_cant_go_anywhere_without_login
+----------------------------------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 21:50:53.496210"], ["updated_at", "2019-12-15 21:50:53.496210"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:50:53 +0300
+Processing by SessionController#sign_out as HTML
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:50:53 +0300
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 342)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 00:50:53 +0300
+Processing by SessionController#sign_out as HTML
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 342)
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 00:50:53 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 00:50:53 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (526.0ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[36mTruncate Tables (527.7ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:51:08.507861', '2019-12-15 21:51:08.507861');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:51:08.507861', '2019-12-15 21:51:08.507861');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:51:08.509433', '2019-12-15 21:51:08.509433');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:51:08.509433', '2019-12-15 21:51:08.509433')[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:51:08.507861', '2019-12-15 21:51:08.507861');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:51:08.507861', '2019-12-15 21:51:08.507861');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:51:08.509439', '2019-12-15 21:51:08.509439');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:51:08.509439', '2019-12-15 21:51:08.509439')[0m
+  [1m[36mTruncate Tables (663.7ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (694.7ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (228.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (228.8ms)[0m  [1m[36mcommit transaction[0m
+----------------------------------------------------------
+SessionControllerTest: test_cant_go_anywhere_without_login
+----------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+----------------------------------------------------------------
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 21:51:08.759812"], ["updated_at", "2019-12-15 21:51:08.759812"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:51:08 +0300
+Processing by SessionController#sign_out as HTML
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:51:08 +0300
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 342)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 00:51:08 +0300
+Processing by SessionController#sign_out as HTML
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 342)
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 00:51:08 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 00:51:08 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (418.9ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[36mTruncate Tables (413.3ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:51:36.600584', '2019-12-15 21:51:36.600584');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:51:36.600584', '2019-12-15 21:51:36.600584');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:51:36.602094', '2019-12-15 21:51:36.602094');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:51:36.602094', '2019-12-15 21:51:36.602094')[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:51:36.600584', '2019-12-15 21:51:36.600584');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:51:36.600584', '2019-12-15 21:51:36.600584');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:51:36.602094', '2019-12-15 21:51:36.602094');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:51:36.602094', '2019-12-15 21:51:36.602094')[0m
+  [1m[36mTruncate Tables (454.4ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[36mTruncate Tables (457.2ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (141.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+----------------------------------------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 21:51:36.764331"], ["updated_at", "2019-12-15 21:51:36.764331"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (167.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------
+SessionControllerTest: test_cant_go_anywhere_without_login
+----------------------------------------------------------
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:51:36 +0300
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:51:36 +0300
+Processing by SessionController#sign_out as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 342)
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 00:51:36 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 00:51:36 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Processing by SessionController#sign_out as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 342)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 00:51:36 +0300
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (466.8ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:52:23.144957', '2019-12-15 21:52:23.144957');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:52:23.144957', '2019-12-15 21:52:23.144957');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:52:23.146434', '2019-12-15 21:52:23.146434');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:52:23.146434', '2019-12-15 21:52:23.146434')[0m
+  [1m[36mTruncate Tables (565.6ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[36mTruncate Tables (563.0ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:52:23.244705', '2019-12-15 21:52:23.244705');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:52:23.244705', '2019-12-15 21:52:23.244705');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:52:23.246278', '2019-12-15 21:52:23.246278');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:52:23.246278', '2019-12-15 21:52:23.246278')[0m
+  [1m[36mTruncate Tables (657.0ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (252.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+----------------------------------------------------------------
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 21:52:23.416467"], ["updated_at", "2019-12-15 21:52:23.416467"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:52:23 +0300
+  [1m[35m (174.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------
+SessionControllerTest: test_cant_go_anywhere_without_login
+----------------------------------------------------------
+Processing by SessionController#sign_out as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:52:23 +0300
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 00:52:23 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 00:52:23 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Processing by SessionController#sign_out as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 00:52:23 +0300
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (440.0ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (442.3ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:52:28.630908', '2019-12-15 21:52:28.630908');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:52:28.630908', '2019-12-15 21:52:28.630908');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:52:28.632438', '2019-12-15 21:52:28.632438');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:52:28.632438', '2019-12-15 21:52:28.632438')[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:52:28.630908', '2019-12-15 21:52:28.630908');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:52:28.630908', '2019-12-15 21:52:28.630908');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:52:28.632441', '2019-12-15 21:52:28.632441');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:52:28.632441', '2019-12-15 21:52:28.632441')[0m
+  [1m[36mTruncate Tables (513.9ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (579.9ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (228.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (228.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------
+----------------------------------------------------------------
+SessionControllerTest: test_cant_go_anywhere_without_login
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+----------------------------------------------------------
+----------------------------------------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:52:28 +0300
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 21:52:28.911688"], ["updated_at", "2019-12-15 21:52:28.911688"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by SessionController#sign_out as HTML
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:52:28 +0300
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 00:52:28 +0300
+Processing by SessionController#sign_out as HTML
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 00:52:28 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 00:52:28 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 1500], ["json_responce", "{}"], ["created_at", "2019-12-15 21:52:36.504726"], ["updated_at", "2019-12-15 21:52:36.504726"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.1ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 300], ["json_responce", "{}"], ["created_at", "2019-12-15 21:52:36.508272"], ["updated_at", "2019-12-15 21:52:36.508272"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Destroy (0.1ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.3ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (511.0ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (514.1ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:53:27.175236', '2019-12-15 21:53:27.175236');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:53:27.175236', '2019-12-15 21:53:27.175236');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:53:27.176736', '2019-12-15 21:53:27.176736');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:53:27.176736', '2019-12-15 21:53:27.176736')[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:53:27.175236', '2019-12-15 21:53:27.175236');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:53:27.175236', '2019-12-15 21:53:27.175236');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:53:27.176734', '2019-12-15 21:53:27.176734');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:53:27.176734', '2019-12-15 21:53:27.176734')[0m
+  [1m[36mTruncate Tables (621.9ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (662.4ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (222.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+----------------------------------------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 21:53:27.416742"], ["updated_at", "2019-12-15 21:53:27.416742"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:53:27 +0300
+Processing by SessionController#sign_out as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 00:53:27 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 00:53:27 +0300
+  [1m[35m (261.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------
+SessionControllerTest: test_cant_go_anywhere_without_login
+----------------------------------------------------------
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:53:27 +0300
+Processing by SessionController#sign_out as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 00:53:27 +0300
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (525.0ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[36mTruncate Tables (527.4ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (523.5ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:53:35.198366', '2019-12-15 21:53:35.198366');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:53:35.198366', '2019-12-15 21:53:35.198366');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:53:35.200009', '2019-12-15 21:53:35.200009');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:53:35.200009', '2019-12-15 21:53:35.200009')[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:53:35.198366', '2019-12-15 21:53:35.198366');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:53:35.198366', '2019-12-15 21:53:35.198366');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:53:35.200157', '2019-12-15 21:53:35.200157');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:53:35.200157', '2019-12-15 21:53:35.200157')[0m
+  [1m[36mTruncate Tables (555.2ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (142.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (143.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+SessionControllerTest: test_cant_go_anywhere_without_login
+----------------------------------------------------------
+----------------------------------------------------------------
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+----------------------------------------------------------------
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:53:35 +0300
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 21:53:35.361170"], ["updated_at", "2019-12-15 21:53:35.361170"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by SessionController#sign_out as HTML
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:53:35 +0300
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 00:53:35 +0300
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+Processing by SessionController#sign_out as HTML
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 00:53:35 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 00:53:35 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 1500], ["json_responce", "{}"], ["created_at", "2019-12-15 21:53:47.640961"], ["updated_at", "2019-12-15 21:53:47.640961"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.1ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 300], ["json_responce", "{}"], ["created_at", "2019-12-15 21:53:47.644473"], ["updated_at", "2019-12-15 21:53:47.644473"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Destroy (0.1ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (432.4ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[36mTruncate Tables (433.8ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (436.3ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (1.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:53:56.642099', '2019-12-15 21:53:56.642099');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:53:56.642099', '2019-12-15 21:53:56.642099');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:53:56.643722', '2019-12-15 21:53:56.643722');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:53:56.643722', '2019-12-15 21:53:56.643722')[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 21:53:56.642099', '2019-12-15 21:53:56.642099');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 21:53:56.642099', '2019-12-15 21:53:56.642099');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 21:53:56.643728', '2019-12-15 21:53:56.643728');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 21:53:56.643728', '2019-12-15 21:53:56.643728')[0m
+  [1m[36mTruncate Tables (453.2ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (154.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (154.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+----------------------------------------------------------
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+SessionControllerTest: test_cant_go_anywhere_without_login
+----------------------------------------------------------------
+----------------------------------------------------------
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:53:56 +0300
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 21:53:56.817481"], ["updated_at", "2019-12-15 21:53:56.817481"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by SessionController#sign_out as HTML
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 00:53:56 +0300
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 00:53:56 +0300
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+Processing by SessionController#sign_out as HTML
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 00:53:56 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 00:53:56 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 1500], ["json_responce", "{}"], ["created_at", "2019-12-15 21:54:00.540282"], ["updated_at", "2019-12-15 21:54:00.540282"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 300], ["json_responce", "{}"], ["created_at", "2019-12-15 21:54:00.543667"], ["updated_at", "2019-12-15 21:54:00.543667"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Destroy (0.1ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by SessionController#sign_out as HTML
+Redirected to http://test.host/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 840)
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://test.host/session/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms | Allocations: 1187)
+Processing by MainController#index as HTML
+Redirected to http://test.host/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 133)
+Processing by MainController#result as HTML
+  Parameters: {"txt"=>"1 2"}
+Redirected to http://test.host/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by MainController#index as HTML
+Redirected to http://test.host/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 840)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (512.3ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[36mTruncate Tables (510.9ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (509.7ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[36mTruncate Tables (517.1ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 22:03:22.442411', '2019-12-15 22:03:22.442411');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 22:03:22.442411', '2019-12-15 22:03:22.442411');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 22:03:22.444013', '2019-12-15 22:03:22.444013');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 22:03:22.444013', '2019-12-15 22:03:22.444013')[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.5ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 22:03:22.442411', '2019-12-15 22:03:22.442411');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 22:03:22.442411', '2019-12-15 22:03:22.442411');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 22:03:22.444015', '2019-12-15 22:03:22.444015');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 22:03:22.444015', '2019-12-15 22:03:22.444015')[0m
+  [1m[35m (142.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (143.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+----------------------------------------------------------
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+SessionControllerTest: test_cant_go_anywhere_without_login
+----------------------------------------------------------------
+----------------------------------------------------------
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 01:03:22 +0300
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 22:03:22.606491"], ["updated_at", "2019-12-15 22:03:22.606491"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by SessionController#sign_out as HTML
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 01:03:22 +0300
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 01:03:22 +0300
+Processing by SessionController#sign_out as HTML
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 01:03:22 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 01:03:22 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 1500], ["json_responce", "{}"], ["created_at", "2019-12-15 22:03:48.480775"], ["updated_at", "2019-12-15 22:03:48.480775"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 300], ["json_responce", "{}"], ["created_at", "2019-12-15 22:03:48.484212"], ["updated_at", "2019-12-15 22:03:48.484212"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Destroy (0.1ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Processing by MainController#index as HTML
+Redirected to http://test.host/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 840)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 1500], ["json_responce", "{}"], ["created_at", "2019-12-15 22:03:59.191670"], ["updated_at", "2019-12-15 22:03:59.191670"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.1ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 300], ["json_responce", "{}"], ["created_at", "2019-12-15 22:03:59.194987"], ["updated_at", "2019-12-15 22:03:59.194987"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Destroy (0.1ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTruncate Tables (467.9ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (473.9ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mTruncate Tables (472.5ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 22:04:09.131827', '2019-12-15 22:04:09.131827');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 22:04:09.131827', '2019-12-15 22:04:09.131827');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 22:04:09.133427', '2019-12-15 22:04:09.133427');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 22:04:09.133427', '2019-12-15 22:04:09.133427')[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "users";
+DELETE FROM "calculations";
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (980190962, 'MyString', 'MyString', '2019-12-15 22:04:09.131827', '2019-12-15 22:04:09.131827');
+INSERT INTO "users" ("id", "login", "password_digest", "created_at", "updated_at") VALUES (298486374, 'MyString', 'MyString', '2019-12-15 22:04:09.131827', '2019-12-15 22:04:09.131827');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (980190962, 1, 'MyText', '2019-12-15 22:04:09.133427', '2019-12-15 22:04:09.133427');
+INSERT INTO "calculations" ("id", "input", "json_responce", "created_at", "updated_at") VALUES (298486374, 1, 'MyText', '2019-12-15 22:04:09.133427', '2019-12-15 22:04:09.133427')[0m
+  [1m[36mTruncate Tables (489.9ms)[0m  [1m[31mDELETE FROM "calculations";
+DELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (148.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (148.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------
+SessionControllerTest: test_cant_go_anywhere_without_login
+----------------------------------------------------------
+----------------------------------------------------------------
+SessionControllerTest: test_create_fake_user_and_make_some_stuff
+----------------------------------------------------------------
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 01:04:09 +0300
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("login", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["login", "test"], ["password_digest", "1234"], ["created_at", "2019-12-15 22:04:09.299941"], ["updated_at", "2019-12-15 22:04:09.299941"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."login" = ? AND "users"."id" != ? LIMIT ?[0m  [["login", "test"], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by SessionController#sign_out as HTML
+Started GET "/session/signout" for 127.0.0.1 at 2019-12-16 01:04:09 +0300
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/main/index" for 127.0.0.1 at 2019-12-16 01:04:09 +0300
+Processing by SessionController#sign_out as HTML
+Processing by MainController#index as HTML
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 339)
+Started GET "/session/auth?login=test&pass=1234" for 127.0.0.1 at 2019-12-16 01:04:09 +0300
+Processing by SessionController#authorize_user as HTML
+  Parameters: {"login"=>"test", "pass"=>"1234"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+Redirected to http://www.example.com/session/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 351)
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-16 01:04:09 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Redirected to http://www.example.com/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 206)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "test"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Processing by MainController#index as HTML
+Redirected to http://test.host/session/signin
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 840)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 1500], ["json_responce", "{}"], ["created_at", "2019-12-15 22:04:14.119048"], ["updated_at", "2019-12-15 22:04:14.119048"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 1500], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("input", "json_responce", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["input", 300], ["json_responce", "{}"], ["created_at", "2019-12-15 22:04:14.122473"], ["updated_at", "2019-12-15 22:04:14.122473"]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."input" = ? LIMIT ?[0m  [["input", 300], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCalculation Destroy (0.1ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m

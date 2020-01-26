@@ -16,8 +16,6 @@ class SessionControllerTest < ActionDispatch::IntegrationTest
     get signout_url
     get auth_url, params: { login: 'test', pass: '1234' }
     get result_url, params: { n: '300' }
-    puts page
-    
     User.find_by(login: 'test').destroy if usr
   end
 end

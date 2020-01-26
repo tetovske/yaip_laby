@@ -13154,3 +13154,270 @@ Processing by MainController#result as XML
 Completed 200 OK in 718ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 540854)
 
 
+Started GET "/" for 127.0.0.1 at 2019-12-15 17:52:12 +0300
+  [1m[35m (16.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 78.3ms | Allocations: 506)
+Completed 200 OK in 2089ms (Views: 1998.5ms | ActiveRecord: 0.0ms | Allocations: 1283702)
+
+
+Started GET "/main/result?n=300" for 127.0.0.1 at 2019-12-15 17:52:31 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 709ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 91890)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-15 18:49:57 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 166)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 11079)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:50:10 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 520ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90801)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:50:53 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 511ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90799)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:52:27 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 515ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90802)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:53:05 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 516ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90800)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:53:22 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 523ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90801)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:55:13 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 513ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90801)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:55:32 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 499ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90797)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:56:15 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 517ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90801)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:56:18 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 521ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90797)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:58:35 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 509ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90801)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:58:38 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 505ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90797)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 18:58:42 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 506ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90801)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:00:33 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 497ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90800)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:01:24 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 504ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90802)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:01:29 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 518ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90802)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:01:31 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 522ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90799)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:05:52 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 502ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90805)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:05:55 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 508ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90797)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:05:58 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 515ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90805)
+
+
+Started GET "/main/result.xml?n=" for ::1 at 2019-12-15 19:06:01 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>""}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 307)
+
+
+Started GET "/main/result.xml?n=" for ::1 at 2019-12-15 19:06:05 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>""}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 304)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:06:54 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:06:54 +0300
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:06:54 +0300
+Completed 200 OK in 495ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 91353)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as XML
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+  Parameters: {"n"=>"300"}
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:06:55 +0300
+Completed 200 OK in 896ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 144802)
+
+
+Completed 200 OK in 999ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 182668)
+
+
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 485ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90904)
+
+
+Started GET "/" for ::1 at 2019-12-15 19:07:14 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+Started GET "/" for ::1 at 2019-12-15 19:07:14 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 158)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 20026)
+
+
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 18864)
+
+
+Started GET "/" for ::1 at 2019-12-15 19:07:14 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 157)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 10891)
+
+
+Started GET "/main/result.xml?n=10&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-12-15 19:07:19 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"10", "commit"=>"Найти"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 506)
+
+
+Started GET "/main/result.xml?n=300&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2019-12-15 19:07:19 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300", "commit"=>"Найти"}
+Completed 200 OK in 531ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90914)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:15:37 +0300
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:15:37 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:15:38 +0300
+Completed 200 OK in 870ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 173424)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Completed 200 OK in 853ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 143503)
+
+
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 472ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 91069)
+
+
+Started GET "/main/result.rss?n=300" for 127.0.0.1 at 2019-12-15 19:20:29 +0300
+Processing by MainController#result as RSS
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 504ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90887)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:28:53 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 493ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90803)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:28:57 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 526ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 90801)
+
+
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:33:18 +0300
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:33:18 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/main/result.xml?n=300" for ::1 at 2019-12-15 19:33:18 +0300
+Completed 200 OK in 473ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 93961)
+
+
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as XML
+  Parameters: {"n"=>"300"}
+Completed 200 OK in 676ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 151113)
+
+
+Completed 200 OK in 615ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 108018)
+
+

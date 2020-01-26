@@ -1,28 +1,33 @@
-class MainController < ApplicationController
-    def index; end
-    def result
-        arr = []
-        params[:n].to_i.times do |i|
-            params[:n].to_i.times do |j|
-                a = find_dev(i).reduce { |a, b| a + b } == j
-                b = find_dev(j).reduce { |a, b| a + b } == i
-                arr << [i, j] if a && b && !arr.include?([j, i]) && i != j
-            end 
-        end
-        @res = arr
-        respond_to do |format|
-            format.html
-            format.xml { render :xml => @res }
-        end
-    end
+# frozen_string_literal: true
 
-    def find_dev(x_val)
-        res = []
-        devider = x_val / 2
-        while devider > 0 do
-            res.push(devider) if x_val % devider == 0
-            devider -= 1
-        end
-        res
+# MainController class
+class MainController < ApplicationController
+  def index; end
+
+  def result
+    arr = []
+    par = params[:n].to_i
+    par.times do |i|
+      par.times do |j|
+        arr << [i, j] if compare_nums(i, j) && !arr.include?([j, i]) && i != j
+      end
     end
+    render xml: arr.to_xml
+  end
+
+  private
+
+  def compare_nums(a_val, b_val)
+    find_dev(a_val).reduce(:+) == b_val && find_dev(b_val).reduce(:+) == a_val
+  end
+
+  def find_dev(x_val)
+    res = []
+    devider = x_val / 2
+    while devider.positive?
+      res.push(devider) if (x_val % devider).zero?
+      devider -= 1
+    end
+    res
+  end
 end

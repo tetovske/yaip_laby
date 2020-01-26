@@ -15313,3 +15313,341 @@ Processing by MainController#index as HTML
 Completed 200 OK in 3817ms (Views: 3740.9ms | ActiveRecord: 0.0ms | Allocations: 1286652)
 
 
+Started GET "/" for 127.0.0.1 at 2019-12-15 18:50:03 +0300
+  [1m[35m (16.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 44.5ms | Allocations: 971)
+Completed 200 OK in 1676ms (Views: 1641.0ms | ActiveRecord: 0.0ms | Allocations: 1284256)
+
+
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:50:10 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 603ms (ActiveRecord: 0.0ms | Allocations: 2791)
+
+
+  
+NameError (uninitialized constant MainController::XmlConverter):
+  
+app/controllers/main_controller.rb:18:in `result'
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:50:53 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 518ms (ActiveRecord: 0.0ms | Allocations: 2779)
+
+
+  
+NameError (uninitialized constant MainController::XsltAppender):
+  
+app/controllers/main_controller.rb:20:in `result'
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:52:27 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 522ms (ActiveRecord: 0.0ms | Allocations: 2925)
+
+
+  
+NameError (uninitialized constant MainController::Services):
+  
+app/controllers/main_controller.rb:17:in `result'
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:53:05 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 523ms (ActiveRecord: 0.0ms | Allocations: 2660)
+
+
+  
+NameError (uninitialized constant XmlConverter):
+  
+app/controllers/main_controller.rb:17:in `result'
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:53:22 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 529ms (ActiveRecord: 0.0ms | Allocations: 2703)
+
+
+  
+NameError (uninitialized constant Services):
+  
+app/controllers/main_controller.rb:17:in `result'
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:55:13 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 522ms (ActiveRecord: 0.0ms | Allocations: 2676)
+
+
+  
+NameError (uninitialized constant Services):
+  
+app/controllers/main_controller.rb:17:in `result'
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:55:32 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 640ms (ActiveRecord: 0.0ms | Allocations: 12850)
+
+
+  
+NoMethodError (undefined method `to_html' for #<Dry::Monads::Result::Success:0x000055a986aab3d0>
+Did you mean?  to_yaml):
+  
+app/controllers/main_controller.rb:17:in `result'
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:56:15 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер", "commit"=>"Найти"}
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 94)
+Completed 200 OK in 581ms (Views: 59.4ms | ActiveRecord: 0.0ms | Allocations: 1753)
+
+
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:56:18 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер", "commit"=>"Найти"}
+Completed 200 OK in 526ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1137)
+
+
+Started GET "/home/tetovske/YAIP/laby/laba10/proxy_server/public/parser.xslt" for 127.0.0.1 at 2019-12-15 18:56:19 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/tetovske/YAIP/laby/laba10/proxy_server/public/parser.xslt"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:58:35 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер", "commit"=>"Найти"}
+Completed 200 OK in 513ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 855)
+
+
+Started GET "/home/tetovske/YAIP/laby/laba10/proxy_server/public/parser.xslt" for 127.0.0.1 at 2019-12-15 18:58:35 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/tetovske/YAIP/laby/laba10/proxy_server/public/parser.xslt"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/main/result?n=300&handle=%D0%9D%D0%B5+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:58:38 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Не обрабатывать", "commit"=>"Найти"}
+Completed 200 OK in 509ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 842)
+
+
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 18:58:42 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер", "commit"=>"Найти"}
+Completed 200 OK in 510ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 850)
+
+
+Started GET "/home/tetovske/YAIP/laby/laba10/proxy_server/public/parser.xslt" for 127.0.0.1 at 2019-12-15 18:58:42 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/tetovske/YAIP/laby/laba10/proxy_server/public/parser.xslt"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:00:33 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер", "commit"=>"Найти"}
+Completed 200 OK in 502ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1371)
+
+
+Started GET "/home/tetovske/YAIP/laby/laba10/proxy_server/public/parser.xslt" for 127.0.0.1 at 2019-12-15 19:00:34 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/tetovske/YAIP/laby/laba10/proxy_server/public/parser.xslt"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:01:24 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер", "commit"=>"Найти"}
+Completed 200 OK in 508ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1284)
+
+
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:01:29 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер", "commit"=>"Найти"}
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 92)
+Completed 200 OK in 523ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1384)
+
+
+Started GET "/main/result?n=300&handle=%D0%9D%D0%B5+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:01:31 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Не обрабатывать", "commit"=>"Найти"}
+Completed 200 OK in 526ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 840)
+
+
+Started GET "/main/result?n=300&handle=%D0%9D%D0%B5+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:05:52 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Не обрабатывать", "commit"=>"Найти"}
+Completed 200 OK in 506ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1032)
+
+
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:05:55 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер", "commit"=>"Найти"}
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 514ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1509)
+
+
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:05:58 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер", "commit"=>"Найти"}
+Completed 200 OK in 520ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1134)
+
+
+Started GET "/main/result?n=&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:06:01 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"", "handle"=>"Браузер", "commit"=>"Найти"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 874)
+
+
+Started GET "/main/result?n=&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:06:05 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"", "handle"=>"Сервер", "commit"=>"Найти"}
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1035)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-15 19:28:38 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 834)
+Completed 200 OK in 766ms (Views: 765.5ms | ActiveRecord: 0.0ms | Allocations: 1283310)
+
+
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:28:53 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер", "commit"=>"Найти"}
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 99)
+Completed 200 OK in 500ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1290)
+
+
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2019-12-15 19:28:57 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер", "commit"=>"Найти"}
+Completed 200 OK in 533ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1046)
+
+

@@ -1,9 +1,9 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 
+# Test class
 class MainControllerTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
   test 'go to the main page' do
     get index_url
     assert_response :success

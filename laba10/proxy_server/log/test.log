@@ -2494,3 +2494,184 @@ Completed 200 OK in 2095ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 10
   Rendered inline template (Duration: 0.5ms | Allocations: 217)
 Completed 200 OK in 2086ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1982)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (13.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+MainControllerTest: test_go_to_the_main_page
+--------------------------------------------
+------------------------------------------------------
+CheckFormat: test_check_response_without_any_handlings
+------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+MainControllerTest: test_check_result_page
+------------------------------------------
+-------------------------------------------------------
+CheckFormat: test_check_response_with_server_processing
+-------------------------------------------------------
+Started GET "/main/index" for 127.0.0.1 at 2019-12-15 19:06:54 +0300
+Started GET "/main/result?n=300&handle=%D0%9D%D0%B5+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C" for 127.0.0.1 at 2019-12-15 19:06:54 +0300
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80" for 127.0.0.1 at 2019-12-15 19:06:54 +0300
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80" for 127.0.0.1 at 2019-12-15 19:06:54 +0300
+Processing by MainController#result as HTML
+Processing by MainController#result as HTML
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Не обрабатывать"}
+  Parameters: {"n"=>"300", "handle"=>"Сервер"}
+  Parameters: {"n"=>"300", "handle"=>"Сервер"}
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 909)
+Completed 200 OK in 510ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 906)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+CheckFormat: test_check_responce_with_browser_processing
+--------------------------------------------------------
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80" for 127.0.0.1 at 2019-12-15 19:06:54 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер"}
+Completed 200 OK in 1196ms (Views: 1190.0ms | ActiveRecord: 0.0ms | Allocations: 1276838)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------
+SeleniumTest: test_result_with_n_=_300
+--------------------------------------
+  Rendering inline template
+  Rendered inline template (Duration: 0.5ms | Allocations: 217)
+Completed 200 OK in 1530ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 5852)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------------------
+SeleniumTest: test_check_that_there_are_no_results_on_the_new_page
+------------------------------------------------------------------
+  Rendering inline template
+  Rendered inline template (Duration: 0.5ms | Allocations: 217)
+Completed 200 OK in 1728ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 5715)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+SeleniumTest: test_result_with_n_=_10
+-------------------------------------
+Completed 200 OK in 1478ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 4653)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+CheckFormat: test_check_response_without_any_handlings
+------------------------------------------------------
+-------------------------------------------------------
+CheckFormat: test_check_response_with_server_processing
+-------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+CheckFormat: test_check_responce_with_browser_processing
+--------------------------------------------------------
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80" for 127.0.0.1 at 2019-12-15 19:15:37 +0300
+Started GET "/main/result?n=300&handle=%D0%9D%D0%B5+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C" for 127.0.0.1 at 2019-12-15 19:15:37 +0300
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80" for 127.0.0.1 at 2019-12-15 19:15:37 +0300
+Processing by MainController#result as HTML
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер"}
+  Parameters: {"n"=>"300", "handle"=>"Не обрабатывать"}
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер"}
+Completed 200 OK in 987ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 4864)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 1448ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 905)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering inline template
+  Rendered inline template (Duration: 0.5ms | Allocations: 217)
+Completed 200 OK in 1462ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 5714)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+CheckFormat: test_check_responce_with_browser_processing
+--------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------------------
+CheckFormat: test_check_response_with_server_processing
+-------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------
+CheckFormat: test_check_response_without_any_handlings
+------------------------------------------------------
+Started GET "/main/result?n=300&handle=%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80" for 127.0.0.1 at 2019-12-15 19:33:18 +0300
+Started GET "/main/result?n=300&handle=%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80" for 127.0.0.1 at 2019-12-15 19:33:18 +0300
+Started GET "/main/result?n=300&handle=%D0%9D%D0%B5+%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C" for 127.0.0.1 at 2019-12-15 19:33:18 +0300
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Браузер"}
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Не обрабатывать"}
+Processing by MainController#result as HTML
+  Parameters: {"n"=>"300", "handle"=>"Сервер"}
+Completed 200 OK in 725ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 4782)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 200 OK in 1424ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 905)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering inline template
+  Rendered inline template (Duration: 0.5ms | Allocations: 217)
+Completed 200 OK in 1449ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 5714)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
